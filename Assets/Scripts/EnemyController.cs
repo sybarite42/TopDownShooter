@@ -6,9 +6,9 @@ using Pathfinding;
 public class EnemyController : MonoBehaviour {
     
     private GameObject target;
-    private bool foundPlayer = false;
+    private bool foundPlayer = true;
 
-    private int health = 5;
+    public int health = 5;
     public int rotateSpeed = 6;
     
 
@@ -19,7 +19,8 @@ public class EnemyController : MonoBehaviour {
     {
         target = GameObject.Find("Player");
         aiSetter = GetComponent<AIDestinationSetter>();
-        aiSetter.enabled = false;
+        aiSetter.target = target.transform;
+        //aiSetter.enabled = false;
     }
 
     void Update(){
@@ -36,16 +37,18 @@ public class EnemyController : MonoBehaviour {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, targetPos);
 
         //Has sight on player
-        if (hit.collider.gameObject.tag == "Player")
+        if (hit.collider.gameObject.tag == "Player" && Vector2.Distance(transform.position, hit.transform.position) < 15)
         {
             foundPlayer = true;
-            aiSetter.enabled = true;
+            //aiSetter.enabled = true;
 
         }
+        
         else
         {
             foundPlayer = false;
         }
+
     }
 
     public bool FoundPlayer()

@@ -5,20 +5,18 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour {
 
 
-	public Transform firePoint;
-	public BulletController bullet;
 
+    public Transform firePoint;
     public float minSpread;
     public float maxSpread;
     public float currentSpread;
-
+    public BulletController bullet;
     private AudioSource pistolNoise;
-    private float coolDown;
+    public float coolDown;
+    public float coolDownTimer;
 
 
-
-
-	void Start()
+    void Start()
 	{
 		currentSpread = minSpread;
         pistolNoise = GetComponent<AudioSource>();
