@@ -4,51 +4,73 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour {
 
-
-
-    public Transform firePoint;
-    public float minSpread;
-    public float maxSpread;
-    public float currentSpread;
-    public BulletController bullet;
-    private AudioSource pistolNoise;
-    public float coolDown;
-    public float coolDownTimer;
-
+    public int selectedWeapon = 0;
 
     void Start()
-	{
-		currentSpread = minSpread;
-        pistolNoise = GetComponent<AudioSource>();
-	}
+    {
+        SelectWeapon();
+    }
 
-	void Update () {
+    void Update()
+    {
 
-		if (currentSpread > minSpread)
-			currentSpread -= Time.deltaTime ;
+        int previousSelectedWeapon = selectedWeapon;
 
-		if (coolDown > 0)
-			coolDown -= Time.deltaTime;
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        {
+            if (selectedWeapon >= transform.childCount - 1)
+                selectedWeapon = 0;
+            else
+                selectedWeapon++;
+        }
+
+        if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+        {
+            if (selectedWeapon <= 0)
+                selectedWeapon = transform.childCount - 1;
+            else
+                selectedWeapon--;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            selectedWeapon = 0;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >= 2)
+        {
+            selectedWeapon = 1;
+        }
 
 
-		if (Input.GetButtonDown("Fire1") && coolDown <= 0)
-		{
-			coolDown = 0.1f;
-			Shoot();
-			if(currentSpread < maxSpread)
-			{
-				currentSpread++;
-			}
-		}
-	}
+        if (previousSelectedWeapon != selectedWeapon)
+        {
+            SelectWeapon();
+        }
 
-	void Shoot()
+    }
+
+    void SelectWeapon()
+    {
+        int i = 0;
+        foreach(Transform weapon in transform)
+        {
+            if (i == selectedWeapon)
+                weapon.gameObject.SetActive(true);
+            else
+                weapon.gameObject.SetActive(false);
+            i++;
+        }
+    }
+
+
+    public void Shoot(BulletController bullet, Transform firePoint, float spread, AudioSource noise)
 	{
 		BulletController bulletInst = Instantiate(bullet, firePoint.position, firePoint.rotation);
 
-		bulletInst.transform.Rotate(0, 0, Random.Range(-currentSpread, currentSpread));
+		bulletInst.transform.Rotate(0, 0, Random.Range(-spread, spread));
 
-        pistolNoise.Play(0);
+        noise.Play(0);
 
 	}
 

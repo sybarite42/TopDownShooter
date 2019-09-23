@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponPistolScript : MonoBehaviour
+public class WeaponMachineGunScript : MonoBehaviour
 {
 
-    
+
     public float minSpread;
     public float maxSpread;
     private float currentSpread;
 
     private float coolDown;
-    private float coolDownTimer;
+    public float coolDownTimer;
 
     public BulletController bullet;
     public Transform firePoint;
@@ -29,10 +29,11 @@ public class WeaponPistolScript : MonoBehaviour
 
     void OnEnable()
     {
-        maxSpread = 4f;
-        coolDown = 0.2f;
+        maxSpread = 6f;
+        coolDown = 0.1f;
         currentSpread = minSpread;
     }
+
 
     void Update()
     {
@@ -45,10 +46,10 @@ public class WeaponPistolScript : MonoBehaviour
             coolDownTimer -= Time.deltaTime;
 
 
-        if (Input.GetButtonDown("Fire1") && coolDownTimer <= 0)
+        if (Input.GetButton("Fire1") && coolDownTimer <= 0)
         {
             coolDownTimer = coolDown;
-            controller.Shoot(bullet,firePoint,currentSpread, shootNoise);
+            controller.Shoot(bullet, firePoint, currentSpread, shootNoise);
 
             if (currentSpread < maxSpread)
             {
@@ -56,5 +57,4 @@ public class WeaponPistolScript : MonoBehaviour
             }
         }
     }
-
 }
