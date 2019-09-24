@@ -64,9 +64,9 @@ public class WeaponController : MonoBehaviour {
     }
 
 
-    public void Shoot(BulletController bullet, Transform firePoint, float spread, AudioSource noise)
+    public void Shoot(GameObject bullet, Transform firePoint, float spread, AudioSource noise)
 	{
-		BulletController bulletInst = Instantiate(bullet, firePoint.position, firePoint.rotation);
+        GameObject bulletInst = Instantiate(bullet, firePoint.position, firePoint.rotation);
 
 		bulletInst.transform.Rotate(0, 0, Random.Range(-spread, spread));
 

@@ -8,19 +8,38 @@ public class PlayerController : MonoBehaviour {
     public float speed = 5f;
 
     private int health = 10;
-    private float movement = 0f;
-    private Rigidbody2D rb;
 
+    private float movement = 0f;
+    private Rigidbody2D rb;             //Rigidbody2D
+    private float flashCounter = 0f;
+    private SpriteRenderer sRend;       //SpriteRenderer
+    public Sprite originalSprite;
+    public Sprite whiteSprite;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sRend = GetComponent<SpriteRenderer>();
     }
 
 
     void Update () {
 
-        if(health <= 0)
+        //Player hit
+        if(flashCounter > 0)
+        {
+            sRend.sprite = whiteSprite;
+            flashCounter -= Time.deltaTime;
+        }
+
+        //Player no longer hit
+        if (flashCounter < 0)
+        {
+            sRend.sprite = originalSprite;
+        }
+
+
+        if (health <= 0)
         {
             Destroy(gameObject);
         }
@@ -64,9 +83,14 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-        public void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
-        health -= damage;
+        //Player flashing so invincible
+        if (flashCounter <= 0)
+        {
+            health -= damage;
+            flashCounter = 0.3f;
+        }
     }
 
 }

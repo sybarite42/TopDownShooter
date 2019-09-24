@@ -7,13 +7,13 @@ public class WeaponMachineGunScript : MonoBehaviour
 
 
     public float minSpread;
-    public float maxSpread;
+    public float maxSpread = 8f;
     private float currentSpread;
 
-    private float coolDown;
+    private float coolDown = 0.1f;
     public float coolDownTimer;
 
-    public BulletController bullet;
+    public GameObject bullet;
     public Transform firePoint;
 
     private AudioSource shootNoise;
@@ -25,15 +25,8 @@ public class WeaponMachineGunScript : MonoBehaviour
     {
         controller = GetComponentInParent<WeaponController>();
         shootNoise = GetComponent<AudioSource>();
-    }
-
-    void OnEnable()
-    {
-        maxSpread = 6f;
-        coolDown = 0.1f;
         currentSpread = minSpread;
     }
-
 
     void Update()
     {

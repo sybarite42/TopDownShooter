@@ -359,8 +359,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab1a0435b5a12a54a88bef31b027359e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 4
   rotateSpeed: 6
+  originalSprite: {fileID: 21300000, guid: e28038a285e243749852a77abbbd6e86, type: 3}
+  whiteSprite: {fileID: 21300000, guid: e717620583bede54690691bc2d710e1e, type: 3}
 --- !u!114 &3144174621103406070
 MonoBehaviour:
   m_ObjectHideFlags: 0

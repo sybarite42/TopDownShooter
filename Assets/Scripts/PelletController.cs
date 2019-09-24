@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletController : MonoBehaviour
+public class PelletController : MonoBehaviour
 {
-    private float speed = 15f;
 
-    private float lifeTime = 4f;
+    private float speed;
 
-    private int damage = 2;
+    private float lifeTime = 1f;
+
+    private int damage = 1;
 
     // Update is called once per frame
 
     void Start()
     {
+        speed = Random.Range(15f, 25f);
     }
 
     void Update()
@@ -29,12 +31,11 @@ public class BulletController : MonoBehaviour
         }
     }
 
-    
     void OnCollisionEnter2D(Collision2D collision)
     {
 
-        
-        
+
+
         if (collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(damage);
@@ -51,6 +52,7 @@ public class BulletController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
 
+
+    }
 }

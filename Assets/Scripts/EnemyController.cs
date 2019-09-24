@@ -10,13 +10,17 @@ public class EnemyController : MonoBehaviour {
 
     public int health = 5;
     public int rotateSpeed = 6;
-    
+    private float flashCounter = 0f;
+    private SpriteRenderer sRend;       //SpriteRenderer
+    public Sprite originalSprite;
+    public Sprite whiteSprite;
 
     private AIDestinationSetter aiSetter;
 
 
     void Start()
     {
+        sRend = GetComponent<SpriteRenderer>();
         target = GameObject.Find("Player");
         aiSetter = GetComponent<AIDestinationSetter>();
         aiSetter.target = target.transform;
@@ -25,7 +29,20 @@ public class EnemyController : MonoBehaviour {
 
     void Update(){
 
-        if(health <= 0)
+        //Player hit
+        if (flashCounter > 0)
+        {
+            sRend.sprite = whiteSprite;
+            flashCounter -= Time.deltaTime;
+        }
+
+        //Player no longer hit
+        if (flashCounter < 0)
+        {
+            sRend.sprite = originalSprite;
+        }
+
+        if (health <= 0)
         {
             Destroy(gameObject);
         }
@@ -59,5 +76,6 @@ public class EnemyController : MonoBehaviour {
     public void TakeDamage(int damage)
     {
         health -= damage;
+        flashCounter = 0.3f;
     }
 }
