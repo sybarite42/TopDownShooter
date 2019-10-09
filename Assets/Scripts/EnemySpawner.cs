@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
 
     public bool obstructed = false;
 
-    public void SpawnEnemy(EnemyController enemy)
+    public void SpawnEnemy(GameObject enemy)
     {
         Instantiate(enemy,transform.position, transform.rotation);
     }

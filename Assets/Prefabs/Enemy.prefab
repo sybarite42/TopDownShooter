@@ -125,7 +125,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0d78129c884c12948befb8fb43f5c55f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -221,9 +221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c851690082477c49abd0d124fc46247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePoint: {fileID: 3144174621216007348}
-  bullet: {fileID: 4856365503126628231, guid: 5a88a6a884702fb4eb5739524337e947, type: 3}
-  weaponSpread: 10
 --- !u!1 &3144174621103406065
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,6 +234,7 @@ GameObject:
   - component: {fileID: 3144174621103406075}
   - component: {fileID: 3144174621103406068}
   - component: {fileID: 3144174621103406069}
+  - component: {fileID: 1717338201090153978}
   - component: {fileID: 3144174621103406070}
   - component: {fileID: 3144174621103406071}
   - component: {fileID: 3144174621103406064}
@@ -359,10 +357,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab1a0435b5a12a54a88bef31b027359e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4
-  rotateSpeed: 6
   originalSprite: {fileID: 21300000, guid: e28038a285e243749852a77abbbd6e86, type: 3}
   whiteSprite: {fileID: 21300000, guid: e717620583bede54690691bc2d710e1e, type: 3}
+--- !u!114 &1717338201090153978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144174621103406065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b43c2f22b1d9fb4b9b9733ffc578ed4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 1
+  weaponSpread: 10
+  firePoint: {fileID: 3144174621216007348}
+  bullet: {fileID: 3134492448646906990, guid: 5a88a6a884702fb4eb5739524337e947, type: 3}
 --- !u!114 &3144174621103406070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,7 +430,7 @@ MonoBehaviour:
   orientation: 1
   enableRotation: 0
   targetCompatibility: {fileID: 0}
-  maxAcceleration: 10
+  maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0
   pickNextWaypointDist: 2

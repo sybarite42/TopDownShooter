@@ -1,0 +1,81 @@
+wave survival
+
+arena
+
+
+enemies:
+	Hellish/dark fantasy theme
+	Types needed:
+	Grunt
+		easy to kill
+		deal little damage
+		many of them
+		wander, if near move towards player
+
+		
+	Grunt 2
+		improved grunt
+		
+	soldier
+		harder to kill
+		deals more damage
+		uses A*
+		
+	Warlock
+		easy to kill
+		always wanders
+		shoots player
+		
+	Boss
+		large
+		high hp
+		weak spots
+		uses several attack types
+		
+		
+		
+Pathfinding:
+If has no LOS use A*
+for grunts wander instead
+if has LOS just move towards
+	can have varied rotation
+	
+	
+	
+9 Circles of Hell
+
+	
+game changes based on current circle
+	area changes
+	enemies added
+	bosses inbetween circles?
+
+	
+	1: Limbo
+		the Pagans
+
+	2: Lust
+		Succubus
+		
+	3: Gluttony
+		Pigmen
+		
+	4: Greed
+		imps
+	
+	5: Wrath/Anger
+		
+	
+	6: Heresy
+		Summoner
+		
+	7: Violence
+		
+	
+	
+	8: Fraud
+		Sorcerer
+	
+	9: Treachery 
+	
+	

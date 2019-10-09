@@ -4,50 +4,21 @@ using UnityEngine;
 
 public class EnemyWeaponController : MonoBehaviour
 {
-
-    public Transform firePoint;
-    public BulletController bullet;
-
-    public float weaponSpread = 10;
-
-    private AudioSource pistolNoise;
-    private float coolDown;
-    private EnemyController controller;
-
-
-
+    private AudioSource noise;
 
     void Start()
     {
-        pistolNoise = GetComponent<AudioSource>();
-        controller = transform.root.GetComponent<EnemyController>();
+        noise = GetComponent<AudioSource>();
     }
 
-    void Update()
+
+    public void Shoot(GameObject bullet, Transform firePoint, float spread)
     {
-        //If the Enemy sees the player
-        if (controller.FoundPlayer())
-        {
+        GameObject bulletInst = Instantiate(bullet, firePoint.position, firePoint.rotation);
 
-        
-        if (coolDown > 0)
-            coolDown -= Time.deltaTime;
+        bulletInst.transform.Rotate(0, 0, Random.Range(-spread, spread));
 
-        if (coolDown <= 0)
-        {
-            coolDown = 0.3f;
-            Shoot();
-            }
-        }
-    }
-
-    void Shoot()
-    {
-        BulletController bulletInst = Instantiate(bullet, firePoint.position, firePoint.rotation);
-
-        bulletInst.transform.Rotate(0, 0, Random.Range(-weaponSpread, weaponSpread));
-
-        pistolNoise.Play(0);
+        noise.Play(0);
 
     }
 }

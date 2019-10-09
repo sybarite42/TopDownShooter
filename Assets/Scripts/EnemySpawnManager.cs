@@ -6,7 +6,7 @@ public class EnemySpawnManager : MonoBehaviour
 {
 
 
-    public EnemyController enemy1;
+    public GameObject enemy1;
 
     public EnemySpawner [] spawners;
 
@@ -32,14 +32,13 @@ public class EnemySpawnManager : MonoBehaviour
             if (!spawners[spawnNumber].obstructed)
             {
                 spawners[spawnNumber].SpawnEnemy(enemy1);
-                currentEnemyCount++;
                 coolDownTimer = coolDown;
             }
         }
 
         coolDownTimer -= Time.deltaTime;
 
+        currentEnemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
     }
-
 
 }
