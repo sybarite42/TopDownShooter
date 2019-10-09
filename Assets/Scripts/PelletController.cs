@@ -55,4 +55,12 @@ public class PelletController : MonoBehaviour
 
 
     }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<EnemyController>().TakeDamage(damage);
+            Destroy(gameObject);
+        }
+    }
 }

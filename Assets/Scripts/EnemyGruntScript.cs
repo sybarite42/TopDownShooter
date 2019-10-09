@@ -19,6 +19,9 @@ public class EnemyGruntScript : MonoBehaviour
     public LayerMask whatIsEnemies;
     private int damage = 1;
 
+    //Stores the previously or currently stored health
+    private int storedHealth;
+
     public AIPath aiPath;
     private AIDestinationSetter aiSetter;
 
@@ -27,6 +30,7 @@ public class EnemyGruntScript : MonoBehaviour
     void Start()
     {
         GetComponent<EnemyController>().SetHealth(maxHealth);
+        storedHealth = maxHealth;
         target = GameObject.Find("Player");
         aiPath = GetComponent<AIPath>();
         aiSetter = GetComponent<AIDestinationSetter>();
@@ -37,6 +41,33 @@ public class EnemyGruntScript : MonoBehaviour
     void Update()
     {
 
+        //Object was hit
+        if(GetComponent<EnemyController>().GetHealth() < storedHealth)
+        {
+            //Play hit animation
+            animator.SetBool("Hurt", true);
+            //reset stored health
+            storedHealth = GetComponent<EnemyController>().GetHealth();
+        }
+
+        //Check health from controller
+        if(GetComponent<EnemyController>().GetHealth() < 1)
+        {
+            animator.SetBool("Death", true);
+
+            //Disable object's scripts
+            MonoBehaviour[] comps = GetComponents<MonoBehaviour>();
+            foreach (MonoBehaviour c in comps)
+            {
+                c.enabled = false;
+            }
+            GetComponent<CircleCollider2D>().enabled = false;
+            GetComponent<BoxCollider2D>().enabled = false;
+            
+
+        }
+
+        //Check if reached the destination
         if (aiPath.reachedDestination)
         {
             
@@ -54,6 +85,7 @@ public class EnemyGruntScript : MonoBehaviour
             animator.SetBool("Walking", true);
         }
 
+        //Check which way travelling to face direction
         if(aiPath.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector3(-4f, 4f, 1f);
@@ -63,6 +95,8 @@ public class EnemyGruntScript : MonoBehaviour
             transform.localScale = new Vector3(4f, 4f, 1f);
         }
 
+
+        //Attack cool down
         if (coolDown > 0)
             coolDown -= Time.deltaTime;
 
@@ -84,6 +118,7 @@ public class EnemyGruntScript : MonoBehaviour
         }
     }
 
+
     public void FinishAttacking()
     {
         animator.SetBool("Attacking", false);
@@ -94,9 +129,23 @@ public class EnemyGruntScript : MonoBehaviour
         animator.SetBool("Hurt", false);
     }
 
+    public void FinishSpawning()
+    {
+        animator.SetBool("Spawned", true);
+        //Enable object's scripts
+        MonoBehaviour[] comps = GetComponents<MonoBehaviour>();
+        foreach (MonoBehaviour c in comps)
+        {
+            c.enabled = true;
+        }
+        GetComponent<CircleCollider2D>().enabled = true;
+        GetComponent<BoxCollider2D>().enabled = true;
+    }
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPos.position, attackRange);
     }
+
 }
