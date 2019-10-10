@@ -7,7 +7,7 @@ public class PelletController : MonoBehaviour
 
     private float speed;
 
-    private float lifeTime = 1f;
+    private float lifeTime = 2f;
 
     private int damage = 1;
 
@@ -15,7 +15,7 @@ public class PelletController : MonoBehaviour
 
     void Start()
     {
-        speed = Random.Range(15f, 25f);
+        speed = Random.Range(18f, 22f);
     }
 
     void Update()
@@ -36,18 +36,19 @@ public class PelletController : MonoBehaviour
 
 
 
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" && collision.gameObject.GetComponent<EnemyController>().GetHealth() > 0)
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(damage);
             Destroy(gameObject);
         }
 
+        /*
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.GetComponent<PlayerController>().TakeDamage(damage);
             Destroy(gameObject);
         }
-
+        */
         if (collision.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
@@ -57,7 +58,7 @@ public class PelletController : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" && collision.gameObject.GetComponent<EnemyController>().GetHealth() > 0)
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(damage);
             Destroy(gameObject);

@@ -11,7 +11,7 @@ public class WeaponShotgunScript : MonoBehaviour
     public float maxSpread = 30f;
     private float currentSpread;
 
-    private int numberOfPellets = 8;
+    private int numberOfPellets = 10;
 
     public GameObject bullet;
     public Transform firePoint;
