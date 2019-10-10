@@ -883,7 +883,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1866,7 +1866,7 @@ MonoBehaviour:
   enemy1: {fileID: 3144174621103406065, guid: c28517f16acb3614f80d68a977b1cd32, type: 3}
   spawners: []
   currentEnemyCount: 0
-  maxEnemyCount: 20
+  maxEnemyCount: 200
 --- !u!1 &1534483651
 GameObject:
   m_ObjectHideFlags: 0

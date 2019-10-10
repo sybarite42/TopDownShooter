@@ -34,12 +34,13 @@ public class BulletController : MonoBehaviour
     {
 
         
-        
+        /*
         if (collision.gameObject.tag == "Enemy" && collision.gameObject.GetComponent<EnemyController>().GetHealth() > 0)
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(damage);
             Destroy(gameObject);
         }
+        */
 
         /*
         if (collision.gameObject.tag == "Player")
@@ -59,6 +60,18 @@ public class BulletController : MonoBehaviour
         if (collision.gameObject.tag == "Enemy" && collision.gameObject.GetComponent<EnemyController>().GetHealth() > 0)
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(damage);
+
+            Rigidbody2D enemyRb = collision.gameObject.GetComponent<Rigidbody2D>();
+
+            if(enemyRb != null)
+            {
+                float thrust = 25;
+
+                Vector2 difference = enemyRb.transform.position - transform.position;
+                difference = difference.normalized * thrust;
+                enemyRb.AddForce(difference, ForceMode2D.Impulse);
+            }
+
             Destroy(gameObject);
         }
     }

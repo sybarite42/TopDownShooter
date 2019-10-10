@@ -48,22 +48,9 @@ public class EnemyGruntScript : MonoBehaviour
             animator.SetBool("Hurt", true);
             //reset stored health
             storedHealth = GetComponent<EnemyController>().GetHealth();
-        }
 
-        //Check health from controller
-        if(GetComponent<EnemyController>().GetHealth() < 1)
-        {
-            animator.SetBool("Death", true);
-
-            //Disable object's scripts
-            MonoBehaviour[] comps = GetComponents<MonoBehaviour>();
-            foreach (MonoBehaviour c in comps)
-            {
-                c.enabled = false;
-            }
-            GetComponent<CircleCollider2D>().enabled = false;
-            GetComponent<BoxCollider2D>().enabled = false;
-            
+            //punch back the enemy
+            GetComponent<AIPath>().canMove = false;
 
         }
 
@@ -127,6 +114,28 @@ public class EnemyGruntScript : MonoBehaviour
     public void FinishHurt()
     {
         animator.SetBool("Hurt", false);
+        GetComponent<AIPath>().canMove = true;
+    }
+
+    //Play as event after hurt animation to check if was last blow
+    // if it was play death animation
+    public void CheckDeath()
+    {
+        //Check health from controller if object is at 0 or less hp
+        if (GetComponent<EnemyController>().GetHealth() < 1)
+        {
+            animator.SetBool("Death", true);
+
+            //Disable object's scripts
+            MonoBehaviour[] comps = GetComponents<MonoBehaviour>();
+            foreach (MonoBehaviour c in comps)
+            {
+                c.enabled = false;
+            }
+            GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<CircleCollider2D>().enabled = false;
+            //GetComponent<Rigidbody2D>()
+        }
     }
 
     public void FinishSpawning()
@@ -147,5 +156,4 @@ public class EnemyGruntScript : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPos.position, attackRange);
     }
-
 }
