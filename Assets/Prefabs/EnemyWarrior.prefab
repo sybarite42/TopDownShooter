@@ -15,10 +15,10 @@ GameObject:
   - component: {fileID: 3144174621103406070}
   - component: {fileID: 3144174621103406071}
   - component: {fileID: 3144174621103406064}
-  - component: {fileID: 437653975853559114}
   - component: {fileID: 609550280}
   - component: {fileID: 5199814462437860612}
   - component: {fileID: 5520380270508628782}
+  - component: {fileID: 8309829528219227332}
   m_Layer: 0
   m_Name: EnemyWarrior
   m_TagString: Enemy
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7937f0f2df458fe4d9b953e72e352ebf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 163e2ee418d51a545835a022af0cc912, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -168,7 +168,7 @@ MonoBehaviour:
   repathRate: 0.5
   canSearch: 1
   canMove: 1
-  maxSpeed: 3
+  maxSpeed: 5
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -177,7 +177,7 @@ MonoBehaviour:
   orientation: 1
   enableRotation: 0
   targetCompatibility: {fileID: 0}
-  maxAcceleration: 10
+  maxAcceleration: 20
   rotationSpeed: 360
   slowdownDistance: 0
   pickNextWaypointDist: 1
@@ -200,25 +200,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
---- !u!114 &437653975853559114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3144174621103406065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9084a2b6e1ae2934baf2f29937bedaf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 1
-  attackPos: {fileID: 3076571569888317643}
-  attackRange: 1
-  whatIsEnemies:
-    serializedVersion: 2
-    m_Bits: 512
-  aiPath: {fileID: 0}
 --- !u!95 &609550280
 Animator:
   serializedVersion: 3
@@ -255,7 +236,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.48, y: 0.48}
     newSize: {x: 2.88, y: 1.9200001}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -280,6 +261,25 @@ CircleCollider2D:
   m_Offset: {x: 0.008692864, y: 0}
   serializedVersion: 2
   m_Radius: 0.04472461
+--- !u!114 &8309829528219227332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144174621103406065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff43ab5ccd8b7a24aa4e4e7656d46791, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 1
+  attackPos: {fileID: 3076571569888317643}
+  attackRange: 1
+  whatIsEnemies:
+    serializedVersion: 2
+    m_Bits: 512
+  aiPath: {fileID: 0}
 --- !u!1 &9073093055729687789
 GameObject:
   m_ObjectHideFlags: 0

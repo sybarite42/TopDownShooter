@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
-public class EnemyGruntScript : MonoBehaviour
+public class EnemyWarriorScript : MonoBehaviour
 {
 
     private GameObject target;
 
-    private int maxHealth = 5;
+    private int maxHealth = 10;
 
     private float coolDown;
     private float coolDownTimer;
@@ -16,7 +16,7 @@ public class EnemyGruntScript : MonoBehaviour
     public Transform attackPos;
     public float attackRange;
     public LayerMask whatIsEnemies;
-    private int damage = 1;
+    private int damage = 2;
 
     //Stores the previously or currently stored health
     private int storedHealth;
@@ -60,7 +60,6 @@ public class EnemyGruntScript : MonoBehaviour
             animator.SetBool("Walking", false);
             //Attack
             animator.SetBool("Attacking", true);
-
         }
         else
         {

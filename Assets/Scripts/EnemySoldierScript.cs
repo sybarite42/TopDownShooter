@@ -10,7 +10,6 @@ public class EnemySoldierScript : MonoBehaviour
     private GameObject target;
 
     private int maxHealth = 5;
-    public int rotateSpeed = 1;
 
     private float coolDown;
 
