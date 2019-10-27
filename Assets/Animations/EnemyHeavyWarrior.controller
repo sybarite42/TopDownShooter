@@ -480,7 +480,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 07d1df2caf53c7944a49e2074c493c89, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2038f8bf28bdbb14c8f0d7f40cd69ce9, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -509,7 +509,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 20ae59a28a37c7f41a78cf8d67589e7d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 924354f45985a3e4797e56a9f6f36000, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -538,7 +538,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 568848d338c20404a9a4881f25623202, type: 2}
+  m_Motion: {fileID: 7400000, guid: 727a27a3986da75438fd0c3a9c87fd56, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -551,7 +551,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EnemyHeavyWarrior_Walk
+  m_Name: EnemyHeavyWarrior_Run
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -567,7 +567,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 8aebf08b88cdd2e46bb12b2f06d26e40, type: 2}
+  m_Motion: {fileID: 7400000, guid: de3b7885179295c40995153f647381a0, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -593,7 +593,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ab3fb98ff6786924c9f5ce80c96c142f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 83abab90d2babf346a97f2118b033dc2, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -627,6 +627,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &1102885154548804822
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New State
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 05c1a0a5562673d408b797a2c7f6f3de, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1107 &1107891120302691784
 AnimatorStateMachine:
   serializedVersion: 5
@@ -654,6 +680,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 1102825907920942472}
     m_Position: {x: -252, y: 120, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102885154548804822}
+    m_Position: {x: 660, y: 264, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1101752562507958654}

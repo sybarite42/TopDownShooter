@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EnemyWarrior_Hurt
+  m_Name: EnemyHeavyWarrior_Hurt
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -22,7 +22,7 @@ AnimationClip:
     - time: 0
       value: {fileID: 21300000, guid: e9c2b404efd9e014d90baa065f9f6b1d, type: 3}
     - time: 0.16666667
-      value: {fileID: 21300064, guid: 163e2ee418d51a545835a022af0cc912, type: 3}
+      value: {fileID: 21300064, guid: a5466a1da23e1e54ca9c6be630f68400, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -43,7 +43,7 @@ AnimationClip:
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300000, guid: e9c2b404efd9e014d90baa065f9f6b1d, type: 3}
-    - {fileID: 21300064, guid: 163e2ee418d51a545835a022af0cc912, type: 3}
+    - {fileID: 21300064, guid: a5466a1da23e1e54ca9c6be630f68400, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
