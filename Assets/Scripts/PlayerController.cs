@@ -8,34 +8,30 @@ public class PlayerController : MonoBehaviour {
     public float speed = 5f;
 
     private int health = 10;
+    private bool hurt = false;
 
-    private float movement = 0f;
+    private float xMovement = 0f;
+    private float yMovement = 0f;
+
+
     private Rigidbody2D rb;             //Rigidbody2D
-    private float flashCounter = 0f;
-    private SpriteRenderer sRend;       //SpriteRenderer
-    public Sprite originalSprite;
-    public Sprite whiteSprite;
+
+    private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        sRend = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
 
     void Update () {
 
-        //Player hit
-        if(flashCounter > 0)
+        //Player was hit
+        if (hurt)
         {
-            sRend.sprite = whiteSprite;
-            flashCounter -= Time.deltaTime;
-        }
-
-        //Player no longer hit
-        if (flashCounter < 0)
-        {
-            sRend.sprite = originalSprite;
+            //Play hit animation
+            animator.SetBool("Hurt", true);
         }
 
 
@@ -44,21 +40,19 @@ public class PlayerController : MonoBehaviour {
             Destroy(gameObject);
         }
 
-        var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
-        var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
     }
 
     void FixedUpdate()
     {
-        movement = Input.GetAxisRaw("Horizontal");
-        if (movement > 0f)
+        xMovement = Input.GetAxisRaw("Horizontal");
+        if (xMovement > 0f)
         {
-            rb.velocity = new Vector2(movement * speed, rb.velocity.y);
+            rb.velocity = new Vector2(xMovement * speed, rb.velocity.y);
         }
-        else if (movement < 0f)
+        else if (xMovement < 0f)
         {
-            rb.velocity = new Vector2(movement * speed, rb.velocity.y);
+            rb.velocity = new Vector2(xMovement * speed, rb.velocity.y);
         }
         else
         {
@@ -66,31 +60,62 @@ public class PlayerController : MonoBehaviour {
         }
 
 
-        movement = Input.GetAxisRaw("Vertical");
+        yMovement = Input.GetAxisRaw("Vertical");
 
-        if (movement > 0f)
+        if (yMovement > 0f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, movement * speed);
+            rb.velocity = new Vector2(rb.velocity.x, yMovement * speed);
         }
-        else if (movement < 0f)
+        else if (yMovement < 0f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, movement * speed);
+            rb.velocity = new Vector2(rb.velocity.x, yMovement * speed);
         }
         else
         {
             rb.velocity = new Vector2(rb.velocity.x,0);
 
         }
+
+        if(xMovement != 0 || yMovement != 0)
+        {
+            //Play run animation
+            animator.SetBool("Walking", true);
+        }
+        else
+        {
+            //Stop run animation
+            animator.SetBool("Walking", false);
+        }
+
     }
 
     public void TakeDamage(int damage)
     {
-        //Player flashing so invincible
-        if (flashCounter <= 0)
-        {
-            health -= damage;
-            flashCounter = 0.3f;
-        }
+        health -= damage;
     }
 
+    public void FinishHurt()
+    {
+        animator.SetBool("Hurt", false);
+    }
+
+    //Play as event after hurt animation to check if was last blow
+    // if it was play death animation
+    public void CheckDeath()
+    {
+        //Check health if at 0 or less hp
+        if (health < 1)
+        {
+            animator.SetBool("Death", true);
+
+            //Disable object's scripts
+            MonoBehaviour[] comps = GetComponents<MonoBehaviour>();
+            foreach (MonoBehaviour c in comps)
+            {
+                c.enabled = false;
+            }
+            GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<CircleCollider2D>().enabled = false;
+        }
+    }
 }
