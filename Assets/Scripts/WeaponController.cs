@@ -17,6 +17,20 @@ public class WeaponController : MonoBehaviour {
         var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
+        if(angle > 90 || angle < -90)
+        {
+            FindObjectOfType<PlayerController>().transform.localScale = new Vector3(-1, 1, 1);
+            GetComponentInChildren<Transform>().localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(1, -1, 1);
+        }
+        else
+        {
+            FindObjectOfType<PlayerController>().transform.localScale = new Vector3(1, 1, 1);
+            GetComponentInChildren<Transform>().localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+
         int previousSelectedWeapon = selectedWeapon;
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0f)
