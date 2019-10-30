@@ -26,6 +26,7 @@ public class EnemyGruntScript : MonoBehaviour
 
     private Animator animator;
 
+
     void Start()
     {
         GetComponent<EnemyController>().SetHealth(maxHealth);
@@ -120,6 +121,17 @@ public class EnemyGruntScript : MonoBehaviour
         if (GetComponent<EnemyController>().GetHealth() < 1)
         {
             animator.SetBool("Death", true);
+
+            //Drop table
+            int random = Random.Range(1, 100);
+
+            if (random < 10)
+            {
+                GameObject healthKit = (GameObject)Instantiate(Resources.Load("HealthKit"),gameObject.transform.position,Quaternion.identity);
+            }else if (random > 10 && random < 20)
+            {
+                GameObject ammo = (GameObject)Instantiate(Resources.Load("Ammo"), gameObject.transform.position, Quaternion.identity);
+            }
 
             //Disable object's scripts
             MonoBehaviour[] comps = GetComponents<MonoBehaviour>();
