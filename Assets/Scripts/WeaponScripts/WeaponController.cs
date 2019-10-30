@@ -33,15 +33,18 @@ public class WeaponController : MonoBehaviour {
 
         int previousSelectedWeapon = selectedWeapon;
 
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        //Scroll down
+        if (Input.GetAxis("Mouse ScrollWheel") < 0f)
         {
+            //If at last weapon, loop around to the first
             if (selectedWeapon >= transform.childCount - 1)
                 selectedWeapon = 0;
             else
                 selectedWeapon++;
         }
 
-        if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+        //Scroll up
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
             if (selectedWeapon <= 0)
                 selectedWeapon = transform.childCount - 1;
