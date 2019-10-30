@@ -1,0 +1,20 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HealthKitScript : MonoBehaviour
+{
+
+
+    private int heal = 2;
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerController>().AddHealth(heal);
+            Destroy(gameObject);
+        }
+    }
+
+}

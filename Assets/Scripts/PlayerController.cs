@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
 
     public float speed = 5f;
 
-    private int health = 10;
+    public int health = 10;
     private bool hurt = false;
 
     private float xMovement = 0f;
@@ -118,4 +118,11 @@ public class PlayerController : MonoBehaviour {
             GetComponent<CircleCollider2D>().enabled = false;
         }
     }
+
+    public void AddHealth(int hpToAdd)
+    {
+        health += hpToAdd;
+    }
+
+
 }
