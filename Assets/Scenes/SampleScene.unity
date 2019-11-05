@@ -1683,6 +1683,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088751594}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1091927554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6840654007696025731, guid: fc2c04ef3104f454ca08e26d04db016a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6840654007341466295}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1091927555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091927554}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cafae8e7a91caea4896c3a37383e10fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  enableOnAwake: 0
+  singleColorShader: 1
+  updateInterval: 0.1
+  ghosts: 4
+  _spriteRenderer: {fileID: 1091927560}
+--- !u!212 &1091927560 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6840654007696025729, guid: fc2c04ef3104f454ca08e26d04db016a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6840654007341466295}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1131552745
 GameObject:
   m_ObjectHideFlags: 0

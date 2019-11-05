@@ -127,10 +127,10 @@ public class EnemyGruntScript : MonoBehaviour
 
             if (random < 10)
             {
-                GameObject healthKit = (GameObject)Instantiate(Resources.Load("HealthKit"),gameObject.transform.position,Quaternion.identity);
+                GameObject healthKit = (GameObject)Instantiate(Resources.Load("HealthKitItem"),gameObject.transform.position,Quaternion.identity);
             }else if (random > 10 && random < 20)
             {
-                GameObject ammo = (GameObject)Instantiate(Resources.Load("Ammo"), gameObject.transform.position, Quaternion.identity);
+                GameObject ammo = (GameObject)Instantiate(Resources.Load("AmmoItem"), gameObject.transform.position, Quaternion.identity);
             }
 
             //Disable object's scripts

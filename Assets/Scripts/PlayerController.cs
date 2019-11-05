@@ -7,11 +7,18 @@ public class PlayerController : MonoBehaviour {
 
     public float speed = 5f;
 
+    public float dashSpeed;
+    private float dashTime;
+    public float startDashTime;
+
+
+
     public int health = 10;
     private bool hurt = false;
 
     private float xMovement = 0f;
     private float yMovement = 0f;
+    private Vector3 lastMoveDir;
 
 
     private Rigidbody2D rb;             //Rigidbody2D
@@ -22,6 +29,7 @@ public class PlayerController : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        dashTime = startDashTime;
     }
 
 
@@ -40,51 +48,85 @@ public class PlayerController : MonoBehaviour {
             Destroy(gameObject);
         }
 
-
-    }
-
-    void FixedUpdate()
-    {
         xMovement = Input.GetAxisRaw("Horizontal");
-        if (xMovement > 0f)
-        {
-            rb.velocity = new Vector2(xMovement * speed, rb.velocity.y);
-        }
-        else if (xMovement < 0f)
-        {
-            rb.velocity = new Vector2(xMovement * speed, rb.velocity.y);
-        }
-        else
-        {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-        }
-
 
         yMovement = Input.GetAxisRaw("Vertical");
-
-        if (yMovement > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, yMovement * speed);
-        }
-        else if (yMovement < 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, yMovement * speed);
-        }
-        else
-        {
-            rb.velocity = new Vector2(rb.velocity.x,0);
-
-        }
+        
 
         if(xMovement != 0 || yMovement != 0)
         {
             //Play run animation
             animator.SetBool("Walking", true);
+            Vector3 moveDir = new Vector3(xMovement, yMovement).normalized;
+
+            Vector3 targetMovePosition = transform.position + moveDir * speed * Time.deltaTime;
+            RaycastHit2D raycastHit = Physics2D.Raycast(transform.position, moveDir, speed * Time.deltaTime);
+
+            if(raycastHit.collider == null)
+            {
+                //Can move, no hit
+                lastMoveDir = moveDir;
+                transform.position = targetMovePosition;
+            }
+            else
+            {
+                //Cannot move diagonally, hit something
+
+                //Test moving in horizontal direction
+                Vector3 testMoveDir = new Vector3(moveDir.x, 0f).normalized;
+                targetMovePosition = transform.position + testMoveDir * speed * Time.deltaTime;
+                raycastHit = Physics2D.Raycast(transform.position, testMoveDir, speed * Time.deltaTime);
+                if(testMoveDir.x !=0f && raycastHit.collider == null)
+                {
+                    //Can move horizontally
+                    lastMoveDir = testMoveDir;
+                    transform.position = targetMovePosition;
+                }
+                else
+                {
+                    //Cannot move horizontally
+                    testMoveDir = new Vector3(0f, moveDir.y).normalized;
+                    targetMovePosition = transform.position + testMoveDir * speed * Time.deltaTime;
+                    raycastHit = Physics2D.Raycast(transform.position, testMoveDir, speed * Time.deltaTime);
+                    if(testMoveDir.y != 0f && raycastHit.collider == null)
+                    {
+                        //Can move vertically
+                        lastMoveDir = testMoveDir;
+                        transform.position = targetMovePosition;
+                    }
+                    else
+                    {
+                        //Cannot move vertically
+
+                    }
+                }
+            }
         }
         else
         {
             //Stop run animation
             animator.SetBool("Walking", false);
+        }
+
+        //Dash move
+        if (Input.GetMouseButtonDown(1) )
+        {
+
+            if(rb.velocity == new Vector2(0,0))
+            {
+                float dashDistance = 3f;
+                var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+
+                transform.position += dir.normalized * dashDistance;
+                
+                
+                
+            }
+            else
+            {
+
+            }
+            
         }
 
     }
