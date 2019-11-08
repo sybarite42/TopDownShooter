@@ -1,17 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using CodeMonkey.Utils;
 
 public class PlayerController : MonoBehaviour {
 
-
+    [SerializeField]private Transform pfDashEffect;
     public float speed = 5f;
 
     public float dashSpeed;
     private float dashTime;
     public float startDashTime;
-
-
 
     public int health = 10;
     private bool hurt = false;
@@ -128,9 +127,17 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetMouseButtonDown(1))
         { 
             float dashDistance = 3f;
+            Vector3 beforeDashPosition = transform.position;
             var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
-            TryMove(dir.normalized, dashDistance);
-            //transform.position += dir.normalized * dashDistance;
+            if (TryMove(dir.normalized, dashDistance)) {
+                Transform dashEffectTransform = Instantiate(pfDashEffect, beforeDashPosition, Quaternion.identity);
+                dashEffectTransform.eulerAngles = new Vector3(0, 0, UtilsClass.GetAngleFromVectorFloat(dir));
+                dashEffectTransform.localScale = new Vector3(0.6f, 0.35f, 1f);
+                //float dashEffectWidth = 10f;
+                //dashEffectTransform.localScale = new Vector3(dashDistance / dashEffectWidth,0.35f,1f);
+
+            }
+
 
         }
     }
