@@ -35,6 +35,9 @@ public class PlayerController : MonoBehaviour {
 
     void Update () {
 
+        HandleMovement();
+        HandleDash();
+
         //Player was hit
         if (hurt)
         {
@@ -48,58 +51,32 @@ public class PlayerController : MonoBehaviour {
             Destroy(gameObject);
         }
 
+        
+
+        
+
+    }
+
+    private void HandleMovement()
+    {
         xMovement = Input.GetAxisRaw("Horizontal");
 
         yMovement = Input.GetAxisRaw("Vertical");
-        
 
-        if(xMovement != 0 || yMovement != 0)
+
+        if (xMovement != 0 || yMovement != 0)
         {
             //Play run animation
             animator.SetBool("Walking", true);
             Vector3 moveDir = new Vector3(xMovement, yMovement).normalized;
 
-            Vector3 targetMovePosition = transform.position + moveDir * speed * Time.deltaTime;
-            RaycastHit2D raycastHit = Physics2D.Raycast(transform.position, moveDir, speed * Time.deltaTime);
-
-            if(raycastHit.collider == null)
+            if (TryMove(moveDir, speed * Time.deltaTime))
             {
-                //Can move, no hit
-                lastMoveDir = moveDir;
-                transform.position = targetMovePosition;
+                //Can move, no hitk
             }
             else
             {
-                //Cannot move diagonally, hit something
-
-                //Test moving in horizontal direction
-                Vector3 testMoveDir = new Vector3(moveDir.x, 0f).normalized;
-                targetMovePosition = transform.position + testMoveDir * speed * Time.deltaTime;
-                raycastHit = Physics2D.Raycast(transform.position, testMoveDir, speed * Time.deltaTime);
-                if(testMoveDir.x !=0f && raycastHit.collider == null)
-                {
-                    //Can move horizontally
-                    lastMoveDir = testMoveDir;
-                    transform.position = targetMovePosition;
-                }
-                else
-                {
-                    //Cannot move horizontally
-                    testMoveDir = new Vector3(0f, moveDir.y).normalized;
-                    targetMovePosition = transform.position + testMoveDir * speed * Time.deltaTime;
-                    raycastHit = Physics2D.Raycast(transform.position, testMoveDir, speed * Time.deltaTime);
-                    if(testMoveDir.y != 0f && raycastHit.collider == null)
-                    {
-                        //Can move vertically
-                        lastMoveDir = testMoveDir;
-                        transform.position = targetMovePosition;
-                    }
-                    else
-                    {
-                        //Cannot move vertically
-
-                    }
-                }
+                //Cannot move vertically
             }
         }
         else
@@ -107,28 +84,55 @@ public class PlayerController : MonoBehaviour {
             //Stop run animation
             animator.SetBool("Walking", false);
         }
+    }
 
-        //Dash move
-        if (Input.GetMouseButtonDown(1) )
+    private bool TryMove(Vector3 baseMoveDir, float distance)
+    {
+        Vector3 moveDir = baseMoveDir;
+        bool canMove = CanMove(moveDir, distance);
+        if (!canMove)
         {
-
-            if(rb.velocity == new Vector2(0,0))
+            //Cannot move diagonally
+            moveDir = new Vector3(baseMoveDir.x, 0f).normalized;
+            canMove = CanMove(moveDir, distance);
+            if (!canMove)
             {
-                float dashDistance = 3f;
-                var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
-
-                transform.position += dir.normalized * dashDistance;
-                
-                
-                
+                //Cannot move horizontally
+                moveDir = new Vector3(0f, baseMoveDir.y).normalized;
+                canMove = CanMove(moveDir, distance);
             }
-            else
-            {
-
-            }
-            
+        }
+        if (canMove)
+        {
+            //Can move, no hit
+            lastMoveDir = moveDir;
+            transform.position += moveDir * distance;
+            return true;
+        }
+        else
+        {
+            //Cannot move vertically
+            return false;
         }
 
+    }
+
+    private bool CanMove(Vector3 dir, float distance)
+    {
+        return Physics2D.Raycast(transform.position, dir, distance). collider == null;
+    }
+
+    private void HandleDash()
+    {
+        //Dash move
+        if (Input.GetMouseButtonDown(1))
+        { 
+            float dashDistance = 3f;
+            var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+            TryMove(dir.normalized, dashDistance);
+            //transform.position += dir.normalized * dashDistance;
+
+        }
     }
 
     public void TakeDamage(int damage)
