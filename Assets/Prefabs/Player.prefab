@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6840654007696025730}
   - component: {fileID: 6840654007696025729}
   - component: {fileID: 6840654007696025743}
-  - component: {fileID: 6840654007696025728}
   - component: {fileID: 6840654007696025742}
   - component: {fileID: 545130534758373942}
   m_Layer: 9
@@ -61,6 +60,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -96,29 +96,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb81ff0bb74c9849bc85f58954c4ca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  pfDashEffect: {fileID: 3024514403581139006, guid: f09478e427d68c94fb6ffc0ff0dc6d53,
+    type: 3}
+  speed: 9
+  dashSpeed: 0
+  startDashTime: 0
   health: 10
---- !u!50 &6840654007696025728
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6840654007696025731}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 10
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!58 &6840654007696025742
 CircleCollider2D:
   m_ObjectHideFlags: 0
