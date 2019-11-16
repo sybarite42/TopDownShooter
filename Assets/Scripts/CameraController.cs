@@ -1,25 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class CameraController : MonoBehaviour {
+public class CameraController : MonoBehaviour
+{
+
+    public float dampTime = 0.15f;
+    private Vector3 velocity = Vector3.zero;
+    private GameObject target;
 
 
-	private GameObject player;        //Stores a reference to the player game object
-
-	private Vector3 offset;            //Stores the offset distance between the player and camera
-
-
-	void Start () {
-        player = FindObjectOfType<PlayerController>().gameObject;
-        //Calculate and store the offset value by getting the distance between the player's position and camera's position.
-        offset = transform.position - player.transform.position;
-        
+    void Start()
+    {
+        target = FindObjectOfType<PlayerController>().gameObject;
     }
-	
+    // Update is called once per frame
+    void Update()
+    {
+        if (target)
+        {
+            Vector3 point = GetComponent<Camera>().WorldToViewportPoint(target.transform.position);
+            Vector3 delta = target.transform.position - GetComponent<Camera>().ViewportToWorldPoint(new Vector3(0.5f, 0.5f, point.z)); //(new Vector3(0.5, 0.5, point.z));
+            Vector3 destination = transform.position + delta;
+            transform.position = Vector3.SmoothDamp(transform.position, destination, ref velocity, dampTime);
+        }
 
-	void Update () {
-		// Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
-		transform.position = player.transform.position + offset;
-	}
+    }
 }

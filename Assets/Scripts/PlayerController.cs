@@ -20,19 +20,20 @@ public class PlayerController : MonoBehaviour {
     private Vector3 lastMoveDir;
 
 
-    private Rigidbody2D rb;             //Rigidbody2D
 
     private Animator animator;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         dashTime = startDashTime;
+        transform.localPosition = new Vector3(transform.localPosition.x, 0.009f, transform.localPosition.z);
+        
     }
 
 
     void Update () {
+
 
         HandleMovement();
         HandleDash();

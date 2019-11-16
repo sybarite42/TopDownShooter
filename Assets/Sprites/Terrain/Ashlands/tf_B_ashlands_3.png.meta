@@ -1,0 +1,5215 @@
+fileFormatVersion: 2
+guid: f0740aacac24be24dbf34306749acf98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8609082462506018387
+    second: tf_B_ashlands_3_0
+  - first:
+      213: 5975512495697100324
+    second: tf_B_ashlands_3_1
+  - first:
+      213: 5369954979149351938
+    second: tf_B_ashlands_3_2
+  - first:
+      213: 787052172532447671
+    second: tf_B_ashlands_3_3
+  - first:
+      213: 7820503819072845309
+    second: tf_B_ashlands_3_4
+  - first:
+      213: -7608828255701893616
+    second: tf_B_ashlands_3_5
+  - first:
+      213: 8532592785422053719
+    second: tf_B_ashlands_3_6
+  - first:
+      213: -1430762386527033612
+    second: tf_B_ashlands_3_7
+  - first:
+      213: -7632042317785817976
+    second: tf_B_ashlands_3_8
+  - first:
+      213: 5074686239644937651
+    second: tf_B_ashlands_3_9
+  - first:
+      213: 4662568946374533052
+    second: tf_B_ashlands_3_10
+  - first:
+      213: -7943776731300103379
+    second: tf_B_ashlands_3_11
+  - first:
+      213: 5635693158809960691
+    second: tf_B_ashlands_3_12
+  - first:
+      213: -3315510111162238037
+    second: tf_B_ashlands_3_13
+  - first:
+      213: -775238710012140411
+    second: tf_B_ashlands_3_14
+  - first:
+      213: 8097816718130446724
+    second: tf_B_ashlands_3_15
+  - first:
+      213: -3313571915862313189
+    second: tf_B_ashlands_3_16
+  - first:
+      213: 4754090922999908849
+    second: tf_B_ashlands_3_17
+  - first:
+      213: -1217871008877684095
+    second: tf_B_ashlands_3_18
+  - first:
+      213: 1031423631002318927
+    second: tf_B_ashlands_3_19
+  - first:
+      213: -4585188554462766120
+    second: tf_B_ashlands_3_20
+  - first:
+      213: -9067827087977900565
+    second: tf_B_ashlands_3_21
+  - first:
+      213: 3736280514455091641
+    second: tf_B_ashlands_3_22
+  - first:
+      213: 8519817131716395990
+    second: tf_B_ashlands_3_23
+  - first:
+      213: 5944532333437552024
+    second: tf_B_ashlands_3_24
+  - first:
+      213: -916530036853470238
+    second: tf_B_ashlands_3_25
+  - first:
+      213: 4637135620772370514
+    second: tf_B_ashlands_3_26
+  - first:
+      213: 6392082776137302225
+    second: tf_B_ashlands_3_27
+  - first:
+      213: -2408810340146845032
+    second: tf_B_ashlands_3_28
+  - first:
+      213: 3092543854384487015
+    second: tf_B_ashlands_3_29
+  - first:
+      213: 3951183752911054913
+    second: tf_B_ashlands_3_30
+  - first:
+      213: 2165107047060360758
+    second: tf_B_ashlands_3_31
+  - first:
+      213: 353965993645293641
+    second: tf_B_ashlands_3_32
+  - first:
+      213: 6418338065728561672
+    second: tf_B_ashlands_3_33
+  - first:
+      213: 6840212478700437227
+    second: tf_B_ashlands_3_34
+  - first:
+      213: -439241983550644281
+    second: tf_B_ashlands_3_35
+  - first:
+      213: -5068096285679152676
+    second: tf_B_ashlands_3_36
+  - first:
+      213: -2846808334840118384
+    second: tf_B_ashlands_3_37
+  - first:
+      213: -779779352775838582
+    second: tf_B_ashlands_3_38
+  - first:
+      213: -5107300488732580842
+    second: tf_B_ashlands_3_39
+  - first:
+      213: -2466373601641284380
+    second: tf_B_ashlands_3_40
+  - first:
+      213: -8239328501700560174
+    second: tf_B_ashlands_3_41
+  - first:
+      213: 7222856521095868646
+    second: tf_B_ashlands_3_42
+  - first:
+      213: -1655626600303726896
+    second: tf_B_ashlands_3_43
+  - first:
+      213: -8390122842027605686
+    second: tf_B_ashlands_3_44
+  - first:
+      213: 9107542502355876281
+    second: tf_B_ashlands_3_45
+  - first:
+      213: 6217115408308338740
+    second: tf_B_ashlands_3_46
+  - first:
+      213: -6119194463164187840
+    second: tf_B_ashlands_3_47
+  - first:
+      213: -5550828599006953320
+    second: tf_B_ashlands_3_48
+  - first:
+      213: 2670633224698718799
+    second: tf_B_ashlands_3_49
+  - first:
+      213: 8441785187547315031
+    second: tf_B_ashlands_3_50
+  - first:
+      213: 1445426754953940606
+    second: tf_B_ashlands_3_51
+  - first:
+      213: -5931930400584606717
+    second: tf_B_ashlands_3_52
+  - first:
+      213: -6443380078457371844
+    second: tf_B_ashlands_3_53
+  - first:
+      213: -462359529796766910
+    second: tf_B_ashlands_3_54
+  - first:
+      213: -5626566520385334476
+    second: tf_B_ashlands_3_55
+  - first:
+      213: -7676080761957463970
+    second: tf_B_ashlands_3_56
+  - first:
+      213: -1767521460299237308
+    second: tf_B_ashlands_3_57
+  - first:
+      213: -7497321803160694295
+    second: tf_B_ashlands_3_58
+  - first:
+      213: 8051153893684106603
+    second: tf_B_ashlands_3_59
+  - first:
+      213: 2713806625781984174
+    second: tf_B_ashlands_3_60
+  - first:
+      213: 4085723945029251139
+    second: tf_B_ashlands_3_61
+  - first:
+      213: 3628631794975351510
+    second: tf_B_ashlands_3_62
+  - first:
+      213: 8018348078166643042
+    second: tf_B_ashlands_3_63
+  - first:
+      213: 7938417114378459739
+    second: tf_B_ashlands_3_64
+  - first:
+      213: 5069602607931332970
+    second: tf_B_ashlands_3_65
+  - first:
+      213: -480127954925749723
+    second: tf_B_ashlands_3_66
+  - first:
+      213: 1203614695949392300
+    second: tf_B_ashlands_3_67
+  - first:
+      213: 6359245561678627703
+    second: tf_B_ashlands_3_68
+  - first:
+      213: 4462891564501813533
+    second: tf_B_ashlands_3_69
+  - first:
+      213: -1797050632877860783
+    second: tf_B_ashlands_3_70
+  - first:
+      213: 7903770863370129064
+    second: tf_B_ashlands_3_71
+  - first:
+      213: 124792059688089690
+    second: tf_B_ashlands_3_72
+  - first:
+      213: 8814490754309855578
+    second: tf_B_ashlands_3_73
+  - first:
+      213: 3592053289689696596
+    second: tf_B_ashlands_3_74
+  - first:
+      213: -6230658221197003982
+    second: tf_B_ashlands_3_75
+  - first:
+      213: -6248771015476631605
+    second: tf_B_ashlands_3_76
+  - first:
+      213: -1070081460427591395
+    second: tf_B_ashlands_3_77
+  - first:
+      213: 4934945767562578961
+    second: tf_B_ashlands_3_78
+  - first:
+      213: 4994213218159371895
+    second: tf_B_ashlands_3_79
+  - first:
+      213: -5174997532890899196
+    second: tf_B_ashlands_3_80
+  - first:
+      213: 5578094113416415979
+    second: tf_B_ashlands_3_81
+  - first:
+      213: 5534995155219389942
+    second: tf_B_ashlands_3_82
+  - first:
+      213: -5667419301815509039
+    second: tf_B_ashlands_3_83
+  - first:
+      213: 482525962274555013
+    second: tf_B_ashlands_3_84
+  - first:
+      213: 5771929898734565324
+    second: tf_B_ashlands_3_85
+  - first:
+      213: 4768892916155737318
+    second: tf_B_ashlands_3_86
+  - first:
+      213: 5448494671268397240
+    second: tf_B_ashlands_3_87
+  - first:
+      213: -9188621199998417298
+    second: tf_B_ashlands_3_88
+  - first:
+      213: 6147241740431069053
+    second: tf_B_ashlands_3_89
+  - first:
+      213: -8112266193026167695
+    second: tf_B_ashlands_3_90
+  - first:
+      213: 1222282713938327480
+    second: tf_B_ashlands_3_91
+  - first:
+      213: 6541092922168058665
+    second: tf_B_ashlands_3_92
+  - first:
+      213: 6929094319142206788
+    second: tf_B_ashlands_3_93
+  - first:
+      213: 1226478835972387808
+    second: tf_B_ashlands_3_94
+  - first:
+      213: 3600549685811701391
+    second: tf_B_ashlands_3_95
+  - first:
+      213: -6634290847615738294
+    second: tf_B_ashlands_3_96
+  - first:
+      213: -4221185391339360841
+    second: tf_B_ashlands_3_97
+  - first:
+      213: -4370186502758904470
+    second: tf_B_ashlands_3_98
+  - first:
+      213: -4397594822188486066
+    second: tf_B_ashlands_3_99
+  - first:
+      213: -7231325009612599191
+    second: tf_B_ashlands_3_100
+  - first:
+      213: 3243588866497491985
+    second: tf_B_ashlands_3_101
+  - first:
+      213: -536113591973687368
+    second: tf_B_ashlands_3_102
+  - first:
+      213: 71185238981949760
+    second: tf_B_ashlands_3_103
+  - first:
+      213: -6307633469175425
+    second: tf_B_ashlands_3_104
+  - first:
+      213: 3877531944056309070
+    second: tf_B_ashlands_3_105
+  - first:
+      213: 6812047121225058225
+    second: tf_B_ashlands_3_106
+  - first:
+      213: -926227208213167445
+    second: tf_B_ashlands_3_107
+  - first:
+      213: -6168444800901497168
+    second: tf_B_ashlands_3_108
+  - first:
+      213: 1923150465569782072
+    second: tf_B_ashlands_3_109
+  - first:
+      213: 3345798316374000202
+    second: tf_B_ashlands_3_110
+  - first:
+      213: 920736099797314367
+    second: tf_B_ashlands_3_111
+  - first:
+      213: -2191496529554816760
+    second: tf_B_ashlands_3_112
+  - first:
+      213: -4720575514847757489
+    second: tf_B_ashlands_3_113
+  - first:
+      213: 54441359171077417
+    second: tf_B_ashlands_3_114
+  - first:
+      213: 1946659116421736581
+    second: tf_B_ashlands_3_115
+  - first:
+      213: -2681394777855607607
+    second: tf_B_ashlands_3_116
+  - first:
+      213: 8890559895807692957
+    second: tf_B_ashlands_3_117
+  - first:
+      213: 8019667991904646821
+    second: tf_B_ashlands_3_118
+  - first:
+      213: -5377006317255193769
+    second: tf_B_ashlands_3_119
+  - first:
+      213: 1863215748205191404
+    second: tf_B_ashlands_3_120
+  - first:
+      213: 2572847871077352864
+    second: tf_B_ashlands_3_121
+  - first:
+      213: 8691377725192588592
+    second: tf_B_ashlands_3_122
+  - first:
+      213: -2982228148514887744
+    second: tf_B_ashlands_3_123
+  - first:
+      213: -8288639544531912285
+    second: tf_B_ashlands_3_124
+  - first:
+      213: 1875481514305242447
+    second: tf_B_ashlands_3_125
+  - first:
+      213: -5942974866787053116
+    second: tf_B_ashlands_3_126
+  - first:
+      213: 6962917811128730935
+    second: tf_B_ashlands_3_127
+  - first:
+      213: -3564555131687178371
+    second: tf_B_ashlands_3_128
+  - first:
+      213: 8004308367726486866
+    second: tf_B_ashlands_3_129
+  - first:
+      213: 5791854413334685204
+    second: tf_B_ashlands_3_130
+  - first:
+      213: 2975093891306343542
+    second: tf_B_ashlands_3_131
+  - first:
+      213: 4482099665086824622
+    second: tf_B_ashlands_3_132
+  - first:
+      213: 6090784837452648075
+    second: tf_B_ashlands_3_133
+  - first:
+      213: 612757048679805783
+    second: tf_B_ashlands_3_134
+  - first:
+      213: -1708833414480589063
+    second: tf_B_ashlands_3_135
+  - first:
+      213: 2916823222719588521
+    second: tf_B_ashlands_3_136
+  - first:
+      213: -1671158622328735957
+    second: tf_B_ashlands_3_137
+  - first:
+      213: 4316896434280554360
+    second: tf_B_ashlands_3_138
+  - first:
+      213: 3179191540933437310
+    second: tf_B_ashlands_3_139
+  - first:
+      213: 1583162466184259416
+    second: tf_B_ashlands_3_140
+  - first:
+      213: -683311212663483383
+    second: tf_B_ashlands_3_141
+  - first:
+      213: 3441713121557390040
+    second: tf_B_ashlands_3_142
+  - first:
+      213: -8955309546194987278
+    second: tf_B_ashlands_3_143
+  - first:
+      213: -8935342532697172973
+    second: tf_B_ashlands_3_144
+  - first:
+      213: -4540497112191865452
+    second: tf_B_ashlands_3_145
+  - first:
+      213: -7582833559293515267
+    second: tf_B_ashlands_3_146
+  - first:
+      213: -9044475645985742078
+    second: tf_B_ashlands_3_147
+  - first:
+      213: -2781163944907113318
+    second: tf_B_ashlands_3_148
+  - first:
+      213: 5772028671163920671
+    second: tf_B_ashlands_3_149
+  - first:
+      213: -1893418383956789728
+    second: tf_B_ashlands_3_150
+  - first:
+      213: -7384328708676555195
+    second: tf_B_ashlands_3_151
+  - first:
+      213: 7834677948610187095
+    second: tf_B_ashlands_3_152
+  - first:
+      213: -6058936307295066706
+    second: tf_B_ashlands_3_153
+  - first:
+      213: -5571263126620283183
+    second: tf_B_ashlands_3_154
+  - first:
+      213: -3166123074542005206
+    second: tf_B_ashlands_3_155
+  - first:
+      213: -5883645663611877578
+    second: tf_B_ashlands_3_156
+  - first:
+      213: -7301303496124875960
+    second: tf_B_ashlands_3_157
+  - first:
+      213: 5466690617372554597
+    second: tf_B_ashlands_3_158
+  - first:
+      213: 6494176126124671720
+    second: tf_B_ashlands_3_159
+  - first:
+      213: 7730797567491811090
+    second: tf_B_ashlands_3_160
+  - first:
+      213: 227234883092059042
+    second: tf_B_ashlands_3_161
+  - first:
+      213: -7810943321243680824
+    second: tf_B_ashlands_3_162
+  - first:
+      213: 1833599704619612618
+    second: tf_B_ashlands_3_163
+  - first:
+      213: -8440347516865893812
+    second: tf_B_ashlands_3_164
+  - first:
+      213: -9020852065813932332
+    second: tf_B_ashlands_3_165
+  - first:
+      213: -9046477944806961694
+    second: tf_B_ashlands_3_166
+  - first:
+      213: -7654028328107456216
+    second: tf_B_ashlands_3_167
+  - first:
+      213: 6082058052078723916
+    second: tf_B_ashlands_3_168
+  - first:
+      213: 8990910763252011351
+    second: tf_B_ashlands_3_169
+  - first:
+      213: -609322171682996299
+    second: tf_B_ashlands_3_170
+  - first:
+      213: -533563675714502041
+    second: tf_B_ashlands_3_171
+  - first:
+      213: -4475665328457877768
+    second: tf_B_ashlands_3_172
+  - first:
+      213: 6361670625440912844
+    second: tf_B_ashlands_3_173
+  - first:
+      213: 174299945263590243
+    second: tf_B_ashlands_3_174
+  - first:
+      213: 8101155311796951193
+    second: tf_B_ashlands_3_175
+  - first:
+      213: -7444167182911646450
+    second: tf_B_ashlands_3_176
+  - first:
+      213: 4065077587906737157
+    second: tf_B_ashlands_3_177
+  - first:
+      213: 4660305552359159896
+    second: tf_B_ashlands_3_178
+  - first:
+      213: -4813636832585856646
+    second: tf_B_ashlands_3_179
+  - first:
+      213: 7632578392980825575
+    second: tf_B_ashlands_3_180
+  - first:
+      213: 7376836564910453101
+    second: tf_B_ashlands_3_181
+  - first:
+      213: 1159133284154743700
+    second: tf_B_ashlands_3_182
+  - first:
+      213: 7931603530777567367
+    second: tf_B_ashlands_3_183
+  - first:
+      213: -2564056706636270075
+    second: tf_B_ashlands_3_184
+  - first:
+      213: 8319786887709568277
+    second: tf_B_ashlands_3_185
+  - first:
+      213: 1277562721153476918
+    second: tf_B_ashlands_3_186
+  - first:
+      213: -8712424783156649166
+    second: tf_B_ashlands_3_187
+  - first:
+      213: -1167986075116632467
+    second: tf_B_ashlands_3_188
+  - first:
+      213: -2501033256987395872
+    second: tf_B_ashlands_3_189
+  - first:
+      213: -3478388622779600662
+    second: tf_B_ashlands_3_190
+  - first:
+      213: -9220527649017946816
+    second: tf_B_ashlands_3_191
+  - first:
+      213: 4374047882444954530
+    second: tf_B_ashlands_3_192
+  - first:
+      213: -2700204700353004794
+    second: tf_B_ashlands_3_193
+  - first:
+      213: 5772180950493726115
+    second: tf_B_ashlands_3_194
+  - first:
+      213: -5140385438806129876
+    second: tf_B_ashlands_3_195
+  - first:
+      213: 2739822026277261107
+    second: tf_B_ashlands_3_196
+  - first:
+      213: 8649815832131650100
+    second: tf_B_ashlands_3_197
+  - first:
+      213: 3505348568545655606
+    second: tf_B_ashlands_3_198
+  - first:
+      213: 1372815229284449159
+    second: tf_B_ashlands_3_199
+  - first:
+      213: -4083255166054321783
+    second: tf_B_ashlands_3_200
+  - first:
+      213: -7534061583152412626
+    second: tf_B_ashlands_3_201
+  - first:
+      213: -7368974718973377432
+    second: tf_B_ashlands_3_202
+  - first:
+      213: -3067658968999245913
+    second: tf_B_ashlands_3_203
+  - first:
+      213: 766574515821056324
+    second: tf_B_ashlands_3_204
+  - first:
+      213: -1391716792983130342
+    second: tf_B_ashlands_3_205
+  - first:
+      213: -4303144469445620219
+    second: tf_B_ashlands_3_206
+  - first:
+      213: -8627237461806712356
+    second: tf_B_ashlands_3_207
+  - first:
+      213: -3191549616763837304
+    second: tf_B_ashlands_3_208
+  - first:
+      213: -7609212814743749924
+    second: tf_B_ashlands_3_209
+  - first:
+      213: 4815187392384574110
+    second: tf_B_ashlands_3_210
+  - first:
+      213: -8877049205839067822
+    second: tf_B_ashlands_3_211
+  - first:
+      213: 3313270049913056153
+    second: tf_B_ashlands_3_212
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b0b06a5c8067e43825e249f7acafd9
+      internalID: -8609082462506018387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b674168c884f1439fdb5c0c11e2d2d
+      internalID: 5975512495697100324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0472f6b40b56ba4e8878dc44a9b9825
+      internalID: 5369954979149351938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a654451e84aa849aaf12d30923a392
+      internalID: 787052172532447671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79947c7deb509db4ca0cf158533fb549
+      internalID: 7820503819072845309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27564095a274acd4a848dfc51fa7ee2e
+      internalID: -7608828255701893616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f075f93aba9b748946065da7bfbb50
+      internalID: 8532592785422053719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_7
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0d265f4b77edf49a0c19ccc3970d10
+      internalID: -1430762386527033612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_8
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7da0f6a67607c429fc6b07976cad7e
+      internalID: -7632042317785817976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_9
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f101cc752f8e34d4b9a32ca08297d7e2
+      internalID: 5074686239644937651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_10
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e057964e91ff8c940a33f2d8a02034c3
+      internalID: 4662568946374533052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_11
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb54d1f2fa1790e46b8651eaa5538053
+      internalID: -7943776731300103379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_12
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848d9ac8f15677a4990bbfba61e3fc6b
+      internalID: 5635693158809960691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_13
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117335028f9435d45b958c31104e72b6
+      internalID: -3315510111162238037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_14
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7435c3ea5efaf4743b237015e85d1a16
+      internalID: -775238710012140411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_15
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1980
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd1f9c6feefb9c469ab0f237f74f9e7
+      internalID: 8097816718130446724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59e484cbe5e16740a74f257b43929b8
+      internalID: -3313571915862313189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7edebba15f8c947a32da974d8bf1e0
+      internalID: 4754090922999908849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d5c1f974400f445916deb894e6f079
+      internalID: -1217871008877684095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_19
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a326d715b57614cbf751ae20316e45
+      internalID: 1031423631002318927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_20
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1e574c9470899418032d0400faf6d3
+      internalID: -4585188554462766120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_21
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af8e382083961b40bd7b1ce9fde3491
+      internalID: -9067827087977900565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_22
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2450aed9bf06246bee8e5db162ba85
+      internalID: 3736280514455091641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_23
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a51eefac768db47a18a69336cec26a
+      internalID: 8519817131716395990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_24
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c44e8a89a82d4e41a13fb3e628e43f1
+      internalID: 5944532333437552024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_25
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796d8de92c5acf844ae26c56d89b435b
+      internalID: -916530036853470238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_26
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3ee46b6fde91c40b13444bd7320d29
+      internalID: 4637135620772370514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_27
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69772b6bbe3fbc341940cd012aa7d8f6
+      internalID: 6392082776137302225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_28
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8f4d862781f324abbb90c1262c021d
+      internalID: -2408810340146845032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_29
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe452299df3af594187d1882aaa60703
+      internalID: 3092543854384487015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_30
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3b3b3764c41fd418c314069674db31
+      internalID: 3951183752911054913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_31
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1848
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b8c78ce26dac046af51d73f2f8382d
+      internalID: 2165107047060360758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36780209c12dd1e46be2b55052b11755
+      internalID: 353965993645293641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_33
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92113d6cce5c1ad4895988c5e4c0556b
+      internalID: 6418338065728561672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_34
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40045834f197b5c46bf26d7985c26b7d
+      internalID: 6840212478700437227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_35
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c062adfe36d9d945ac5fe0fade442f8
+      internalID: -439241983550644281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffcd7ab61d82c84ba5d064d3246a094
+      internalID: -5068096285679152676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_37
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332bc5ee6beb9f44b967c27e2ca60e8a
+      internalID: -2846808334840118384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_38
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398ce92a7d83a764789d551a4be41206
+      internalID: -779779352775838582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_39
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cbad34b055cc64a8a1c8ebb9cb7398
+      internalID: -5107300488732580842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_40
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b4cea5d0fb62e4f88be71b5e4c3616
+      internalID: -2466373601641284380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_41
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecac280579808eb468a9db5159832aa9
+      internalID: -8239328501700560174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_42
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c6cd10d50b40e4f97af1afe337b58e
+      internalID: 7222856521095868646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_43
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e629edb3b294eff4a9e8fccd760d0887
+      internalID: -1655626600303726896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_44
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5f071cd760329468c907bb711b67c3
+      internalID: -8390122842027605686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_45
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b345d352b4f644c9f684c6a06bd3b2
+      internalID: 9107542502355876281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_46
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c547cf8acaa025640893fd1e529a6443
+      internalID: 6217115408308338740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_47
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1716
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcd5c601979a7c4ea818b9ddf9bf1b8
+      internalID: -6119194463164187840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86141ddd28ee6014286c507d1570e624
+      internalID: -5550828599006953320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_49
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1f093c3f561144d90c63eac950247a
+      internalID: 2670633224698718799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_50
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8060d0b2dcf8e604a8b0755ec024cbef
+      internalID: 8441785187547315031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_51
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28048b1ea52c3834da70c5dd12ac92b8
+      internalID: 1445426754953940606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_52
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ae53930ca8422478fe2aa2b44b4d6b
+      internalID: -5931930400584606717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_53
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11f8dfe473ed0040891c478b86a1a78
+      internalID: -6443380078457371844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_54
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf37f5151a1d6649a316f5fb844aca2
+      internalID: -462359529796766910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_55
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf448df9bb9ee94ab8464c275cf45b4
+      internalID: -5626566520385334476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_56
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ba4429236be949b025b459abd36eb
+      internalID: -7676080761957463970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_57
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83809fbaefb5a424494dc393013489d6
+      internalID: -1767521460299237308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_58
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2069d5c932f47a4b9f6cedcf1ce7307
+      internalID: -7497321803160694295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_59
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2757b62559595042aa4e21c5055e379
+      internalID: 8051153893684106603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_60
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f778764dc25164149863be3daacd12ff
+      internalID: 2713806625781984174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_61
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2f8a8246e728e47a81bdb3ba68b008
+      internalID: 4085723945029251139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_62
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d07b5cd73a8a458d5435c5af11c3b
+      internalID: 3628631794975351510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_63
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1584
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812a09dede160be46956536e4416b6c6
+      internalID: 8018348078166643042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5103279dcd097540a4ce48916b5874e
+      internalID: 7938417114378459739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9905512a648574f428c534c39ec3de0d
+      internalID: 5069602607931332970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_66
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a05069a1a2acb4bb4861702ae6b6f1
+      internalID: -480127954925749723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_67
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51505294d1ba7445bdced7d227a7c66
+      internalID: 1203614695949392300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc00926cde4bf6d4aba9074ea92ddc33
+      internalID: 6359245561678627703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_69
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338f2a47c11199f46936bb8ee2c8f845
+      internalID: 4462891564501813533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_70
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ac965d639c8c344bbf008631e7021b
+      internalID: -1797050632877860783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_71
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82338ebfa0ee4bd4f804e86c97330f66
+      internalID: 7903770863370129064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_72
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681d0ec4c39fff74d99f9871aade4c0f
+      internalID: 124792059688089690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_73
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d845adc99cdfd1498c3046252848169
+      internalID: 8814490754309855578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_74
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d17bd1089b39f0428fdaafee94ae934
+      internalID: 3592053289689696596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_75
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de56e15caa722fa4fab0001d8f0d9385
+      internalID: -6230658221197003982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_76
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a8abacec1ed7245a6183c1ea2d8b57
+      internalID: -6248771015476631605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_77
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21194480a0c8f6441844e97eff64af9f
+      internalID: -1070081460427591395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_78
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5eae87d383484449d5b1c355c24fa2
+      internalID: 4934945767562578961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_79
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1452
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c27e2cfebebb3f449060345faca7d10
+      internalID: 4994213218159371895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12813729f334cea44bdeeb9f61c09f83
+      internalID: -5174997532890899196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_81
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931079c3be9f4f149ba31be3e0e2111c
+      internalID: 5578094113416415979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_82
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49014f35cf5dd504cada8a3724ea7750
+      internalID: 5534995155219389942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_83
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f29d5399329354995387d367513c84
+      internalID: -5667419301815509039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_84
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10262ed1af37b345b9cd776f91d7789
+      internalID: 482525962274555013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_85
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86600f4242a1e8c4e8e137e3fe45709b
+      internalID: 5771929898734565324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_86
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d79ff3e7c040004585673351a07977c
+      internalID: 4768892916155737318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_87
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13e9aeb4bf3f414ba3438247882d6d6
+      internalID: 5448494671268397240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_88
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089293abd9eb822459930699f68453bc
+      internalID: -9188621199998417298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_89
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e97e188fde9af147b12fae95e2cfb20
+      internalID: 6147241740431069053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_90
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e967e2717b3a54fa9c139f3385ccc7
+      internalID: -8112266193026167695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_91
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34c008f329cc254096351694492ab8d
+      internalID: 1222282713938327480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_92
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df78f8f3a0bb17c4fbf28f64d94ee778
+      internalID: 6541092922168058665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_93
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b27f44cb82248740924ef8080654484
+      internalID: 6929094319142206788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_94
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49ac229bd95d6146b0f1e3ff503e3b2
+      internalID: 1226478835972387808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_95
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1320
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178d8c408341556438f2524dfc0a1329
+      internalID: 3600549685811701391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6278857d16e85464f97438cb034695e3
+      internalID: -6634290847615738294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_97
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e41ff35c091a64983cde9f416f1e6b
+      internalID: -4221185391339360841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f189593abe2bbc45a03065e13664fa5
+      internalID: -4370186502758904470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_99
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0eb133130631f448d47a97c22f4a23
+      internalID: -4397594822188486066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_100
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad540f553d5501429ca51777b784c22
+      internalID: -7231325009612599191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_101
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2521b151d5d944bbd0161d5459a6a8
+      internalID: 3243588866497491985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_102
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9765a58873d41643901ffbd27b18436
+      internalID: -536113591973687368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_103
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a4a15a1fd2e9c41832d9a8a3a8bd18
+      internalID: 71185238981949760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_104
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e7495ab018684448d6a884dd896a43
+      internalID: -6307633469175425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_105
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa53788daf817b42841c5b89c0b556c
+      internalID: 3877531944056309070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_106
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15d85efb434b69479e5d664f250768a
+      internalID: 6812047121225058225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_107
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb402a4852135634ca62a916bba9e72d
+      internalID: -926227208213167445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_108
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43f652261671a2408ec62381289a8d2
+      internalID: -6168444800901497168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_109
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d0f0872ae0fe54d875fdceab900ead
+      internalID: 1923150465569782072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_110
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1188
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb6cf7b61e2f2d4e9d100633352d81a
+      internalID: 3345798316374000202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74dd2c654b783e45a347a8728a048ae
+      internalID: 920736099797314367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_112
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946a89de49db56d47803128eb6ff5370
+      internalID: -2191496529554816760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_113
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c169e591b735d48b9b4407aca06b74
+      internalID: -4720575514847757489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_114
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ff2ce301c43a64ea347c1bd6f4f37d
+      internalID: 54441359171077417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_115
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568db8f673cceca4c8e5de5618541d19
+      internalID: 1946659116421736581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_116
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa82b8edfa1e22b4fa7c9d7610e3b701
+      internalID: -2681394777855607607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_117
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c860759d2a33edf4bb4a254249311cc7
+      internalID: 8890559895807692957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_118
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed62bcc6ae7cb5444a552da1689ea92f
+      internalID: 8019667991904646821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_119
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54712fc7d26a7ab4f9e3f341a04e8ed1
+      internalID: -5377006317255193769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_120
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ddfbeb0e6aef64c8a72062ed68b71f
+      internalID: 1863215748205191404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_121
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a64e14a6e2af34bb47d55308908291
+      internalID: 2572847871077352864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_122
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8beef33ed5eacf48ade48ed95bb2cd7
+      internalID: 8691377725192588592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_123
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedf17f91958eb843977f03e07319923
+      internalID: -2982228148514887744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_124
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf564e51e224cdc49baa394ff2defda6
+      internalID: -8288639544531912285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_125
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722e54a85b644b947b987d3ef0f5a1ed
+      internalID: 1875481514305242447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_126
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1056
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b788a4066058c4ca99b638b7bf919a
+      internalID: -5942974866787053116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ced52c2ebf90b4eb349b2c9732fc2b
+      internalID: 6962917811128730935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_128
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f660a7df5d8fae1428fef9089ae32c8e
+      internalID: -3564555131687178371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_129
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217ac96342604304ebc765cb6daba630
+      internalID: 8004308367726486866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_130
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7e4fa7269b69946ae98ad4d625e945
+      internalID: 5791854413334685204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_131
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701bc638678a2d74ea0b37680a49d635
+      internalID: 2975093891306343542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_132
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2032ae4b10d68764aa7eff49eec55037
+      internalID: 4482099665086824622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_133
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b770db4dc88c3243b23b4148bd2e3f3
+      internalID: 6090784837452648075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_134
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fad349dd0d739e409c263027f4a28b9
+      internalID: 612757048679805783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_135
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cce2fc7657e6e744a919017eb80cbd8
+      internalID: -1708833414480589063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_136
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bceeac8500582814a86d4ffcb3d60cfb
+      internalID: 2916823222719588521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_137
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9804af1f9136574caa490fb695b1c64
+      internalID: -1671158622328735957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_138
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0e8d584adc54b418739ae3c323b608
+      internalID: 4316896434280554360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_139
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da684f6691dcea4cb3c9773c3dbfa4a
+      internalID: 3179191540933437310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_140
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa9e70407206dd438336b32f94bb1c1
+      internalID: 1583162466184259416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_141
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac531bfd7af58349b1b967206191fe1
+      internalID: -683311212663483383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_142
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 924
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418b892f87941b848a121292af9b3557
+      internalID: 3441713121557390040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae98e5fb3addfd4d94331ee144dbd5b
+      internalID: -8955309546194987278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_144
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8be51d6d3919f4fbd0f1934b962bbb
+      internalID: -8935342532697172973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_145
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef27759dcf98bf48a7e6953ef6f4627
+      internalID: -4540497112191865452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_146
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8a45e094cc9374b82f588b81bfe5da
+      internalID: -7582833559293515267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_147
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bba48805b7ee64b932305006b234c4
+      internalID: -9044475645985742078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_148
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018d5c306ab418e478f742d5bde988ac
+      internalID: -2781163944907113318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_149
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02238e40fa99c0d4bbd5d2ed3a61fb7a
+      internalID: 5772028671163920671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_150
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33470c0881716a4e8665b781c8891ee
+      internalID: -1893418383956789728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_151
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8200ff3d3a99d44e89783bc83aaaabb
+      internalID: -7384328708676555195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_152
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b736fc010bb721745baf3ce02e995dd6
+      internalID: 7834677948610187095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_153
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a013aadc19bd14b84ce4fb838c34ce
+      internalID: -6058936307295066706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_154
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5449a99976ab5141a255e9b2c761ed5
+      internalID: -5571263126620283183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_155
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b7a305093a83f4aa7c8420f04e3841
+      internalID: -3166123074542005206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_156
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b28ff25c18ef5c4eb1622c82ea5f8b2
+      internalID: -5883645663611877578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_157
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 792
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25a4a86b495f754dbe0cf7a6d817249
+      internalID: -7301303496124875960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbd985d75708304d900c35f3d30f714
+      internalID: 5466690617372554597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_159
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3530a7c6e469e7144a794f593fb84f6c
+      internalID: 6494176126124671720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_160
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fe5f0257bcdab4682be974fe34a927
+      internalID: 7730797567491811090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_161
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0660343809f8ad949b975e438cfdf4bb
+      internalID: 227234883092059042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_162
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290323e993e57c945b37dbfc0480e5f1
+      internalID: -7810943321243680824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_163
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4eccbb6178d07e409de4d3a5707bfa4
+      internalID: 1833599704619612618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_164
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4ebe72e8d0e9643b840c9ab496ef32
+      internalID: -8440347516865893812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_165
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa56a8ab3ba66a45abd1a79dd8bda7e
+      internalID: -9020852065813932332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_166
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88c21fcfa189d04f87e3a565172bead
+      internalID: -9046477944806961694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_167
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b89228cac241b49929d5dbdd59f05c
+      internalID: -7654028328107456216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_168
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87adc2e780eafd3478a1723842650d2d
+      internalID: 6082058052078723916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_169
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223de04b447b81e41b1be211abdd52c2
+      internalID: 8990910763252011351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_170
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c230a0daf7df2d4fb40bc82098b9310
+      internalID: -609322171682996299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_171
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 660
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f72c4e066774a41a7e8d4d368675bb
+      internalID: -533563675714502041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deefc4af725222469f5d1a076edfa8c
+      internalID: -4475665328457877768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_173
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 528
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489e7ad45cd67c34d85b24b671b0ddab
+      internalID: 6361670625440912844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_174
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 528
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b28d4da5fd5274389c2f925ecd28ca
+      internalID: 174299945263590243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_175
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 528
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd871c4374a13c4bbd1d11e0a63bb05
+      internalID: 8101155311796951193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_176
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 528
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5677e927653cd4492e485b0b791d0b
+      internalID: -7444167182911646450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_177
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 528
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66fe449d9db9454ab4a62a80c125ef6
+      internalID: 4065077587906737157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_178
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 528
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb2ddd4239ea5c4b8752ffa8178aa9e
+      internalID: 4660305552359159896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_179
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 528
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722d4f464d1ebb040935a90c8db11d1b
+      internalID: -4813636832585856646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35ff6db932e33a4a822417a1fdd1625
+      internalID: 7632578392980825575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_181
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aeaf2f5b0220184f867bfe8c8e154cd
+      internalID: 7376836564910453101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_182
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19b3b095b64564439b377b5ab36da18
+      internalID: 1159133284154743700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_183
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a824cdf618aedfe48aa31847e4328c6e
+      internalID: 7931603530777567367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_184
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a39154867505c4a99a89c04650f859
+      internalID: -2564056706636270075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_185
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffccf54d3fbaf0f498bc32ac16170b30
+      internalID: 8319786887709568277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_186
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65a1fcea78521548bda155bf451ec4e
+      internalID: 1277562721153476918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_187
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47498210cab88424b8349cb40b83afcf
+      internalID: -8712424783156649166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_188
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 396
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa654046bfb0b2439e81b3959e51144
+      internalID: -1167986075116632467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8ade08c472ebf4d84f8dfb8411cb0f
+      internalID: -2501033256987395872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_190
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 264
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7b4bd2f941d5542a4fc355976636ac
+      internalID: -3478388622779600662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_191
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 264
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cf80135e6501946a19b41a5c15e38d
+      internalID: -9220527649017946816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_192
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 264
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72714da98aa2b4d489baf13649916644
+      internalID: 4374047882444954530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_193
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 264
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe76a3d37c17424ca73c5afa77027c1
+      internalID: -2700204700353004794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_194
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 264
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be48e0b9b6f78045a052456c2d1e09a
+      internalID: 5772180950493726115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_195
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 264
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b768002bf8c62094fa8a439dce42db8d
+      internalID: -5140385438806129876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_196
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 264
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ab2dd1f7c3b6942893d119285fa8eb
+      internalID: 2739822026277261107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_197
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f710235352b66de4990d6602c70ad5d0
+      internalID: 8649815832131650100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_198
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265f5be6ea841bb40bcc51eaa2ce2c90
+      internalID: 3505348568545655606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_199
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc26d5a3bba5f1f4d934ff9ef73c4d33
+      internalID: 1372815229284449159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_200
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58f9162c59272f439d9d3c04129bffb
+      internalID: -4083255166054321783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_201
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d92009ddb155c459ec17855482959f
+      internalID: -7534061583152412626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_202
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c599cf7f3e6e64b9ac40c4805def58
+      internalID: -7368974718973377432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_203
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eabb24ff373f249a9c6aa5a60b50bf
+      internalID: -3067658968999245913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_204
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5370cf897ecd0d47bf8c0d5a1df6548
+      internalID: 766574515821056324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_205
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058ff66690e9dad4d88d70b3866cb3be
+      internalID: -1391716792983130342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_206
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fccfc04984429a499b8c1bd85c2c9f4
+      internalID: -4303144469445620219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_207
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e8a73a1f85b1a449e2a5b484972aaa
+      internalID: -8627237461806712356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_208
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cf688f9705fda48a158558342343d4
+      internalID: -3191549616763837304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_209
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4bd296287ab4c49aff22cbe36efbf2
+      internalID: -7609212814743749924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_210
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a047adf1219dda4cbeec77e4fc3f946
+      internalID: 4815187392384574110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_211
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b7bdbc6f4515e44a209b8e607664d3
+      internalID: -8877049205839067822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_212
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec379e3fef87524d9f00a831dccc834
+      internalID: 3313270049913056153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
