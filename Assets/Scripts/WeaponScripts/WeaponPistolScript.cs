@@ -26,6 +26,7 @@ public class WeaponPistolScript : MonoBehaviour
         controller = GetComponentInParent<WeaponController>();
         shootNoise = GetComponent<AudioSource>();
         currentSpread = minSpread;
+        transform.localPosition= new Vector3(-0.454f, 0.108f, 0);
     }
 
     void Update()
