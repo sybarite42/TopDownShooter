@@ -170,7 +170,7 @@ public class EnemyGruntScript : MonoBehaviour
         {
             c.enabled = true;
         }
-        //GetComponent<CircleCollider2D>().enabled = true;
+        GetComponent<CircleCollider2D>().enabled = true;
         GetComponent<BoxCollider2D>().enabled = true;
         aiSetter.enabled = false;
         wanderingSetter.enabled = true;
