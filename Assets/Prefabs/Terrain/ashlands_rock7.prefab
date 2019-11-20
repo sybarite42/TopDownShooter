@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7467735550123416562}
   - component: {fileID: 430378516963084652}
   - component: {fileID: 7788076972779482821}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ashlands_rock7
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

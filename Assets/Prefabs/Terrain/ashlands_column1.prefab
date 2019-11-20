@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5650858924524112549}
   - component: {fileID: 8953094630391921901}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ashlands_column2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,9 +91,9 @@ GameObject:
   - component: {fileID: 7681617749792572212}
   - component: {fileID: 6410213938446548847}
   - component: {fileID: -501459175463970946}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ashlands_column1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

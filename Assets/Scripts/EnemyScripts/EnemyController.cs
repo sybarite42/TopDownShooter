@@ -10,7 +10,7 @@ public class EnemyController : MonoBehaviour {
 
     void Start()
     {
-
+        transform.rotation = Quaternion.identity;
     }
 
 

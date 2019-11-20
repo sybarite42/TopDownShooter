@@ -23,18 +23,23 @@ public class EnemyGruntScript : MonoBehaviour
 
     public AIPath aiPath;
     private AIDestinationSetter aiSetter;
+    private WanderingDestinationSetter wanderingSetter;
+    public float aggroRange;
 
     private Animator animator;
 
 
     void Start()
     {
+        transform.rotation = Quaternion.identity;
         GetComponent<EnemyController>().SetHealth(maxHealth);
         storedHealth = maxHealth;
         target = GameObject.Find("Player");
         aiPath = GetComponent<AIPath>();
         aiSetter = GetComponent<AIDestinationSetter>();
-        aiSetter.target = target.transform;
+        aiSetter.enabled = false;
+        wanderingSetter = GetComponent<WanderingDestinationSetter>();
+        wanderingSetter.enabled = false;
         animator = GetComponent<Animator>();
     }
 
@@ -44,6 +49,7 @@ public class EnemyGruntScript : MonoBehaviour
         //Object was hit
         if(GetComponent<EnemyController>().GetHealth() < storedHealth)
         {
+            Aggro();
             //Play hit animation
             animator.SetBool("Hurt", true);
             //reset stored health
@@ -84,13 +90,23 @@ public class EnemyGruntScript : MonoBehaviour
             coolDown -= Time.deltaTime;
 
         //gets the vector to the target
-        //Vector2 targetPos = target.transform.position - transform.position;
+        Vector2 targetPos = target.transform.position - transform.position;
 
         //Look towards player
         //transform.right = targetPos;
 
+
+        if (targetPos.magnitude < aggroRange)
+            Aggro();
+        
     }
 
+    private void Aggro()
+    {
+        wanderingSetter.enabled = false;
+        aiSetter.enabled = true;
+        aiSetter.target = target.transform;
+    }
 
     public void Attack()
     {
@@ -154,8 +170,10 @@ public class EnemyGruntScript : MonoBehaviour
         {
             c.enabled = true;
         }
-        GetComponent<CircleCollider2D>().enabled = true;
+        //GetComponent<CircleCollider2D>().enabled = true;
         GetComponent<BoxCollider2D>().enabled = true;
+        aiSetter.enabled = false;
+        wanderingSetter.enabled = true;
     }
 
     void OnDrawGizmosSelected()
