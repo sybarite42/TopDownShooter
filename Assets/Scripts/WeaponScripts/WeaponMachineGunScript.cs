@@ -39,8 +39,9 @@ public class WeaponMachineGunScript : MonoBehaviour
             coolDownTimer -= Time.deltaTime;
 
 
-        if (Input.GetButton("Fire1") && coolDownTimer <= 0)
+        if (Input.GetButton("Fire1") && coolDownTimer <= 0 && controller.smallAmmo > 0)
         {
+            controller.smallAmmo--;
             coolDownTimer = coolDown;
             controller.Shoot(bullet, firePoint, currentSpread, shootNoise);
 

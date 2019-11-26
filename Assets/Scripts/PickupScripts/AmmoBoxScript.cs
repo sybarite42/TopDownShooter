@@ -9,6 +9,7 @@ public class AmmoBoxScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            collision.GetComponentInChildren<WeaponController>().smallAmmo += 20;
             Destroy(gameObject);
         }
     }

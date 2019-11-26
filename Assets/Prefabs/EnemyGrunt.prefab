@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 5520380270508628782}
   - component: {fileID: 1960974642}
   - component: {fileID: 2271097739070582572}
+  - component: {fileID: -3566604272871631760}
   m_Layer: 0
   m_Name: EnemyGrunt
   m_TagString: Enemy
@@ -103,8 +104,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
-  m_LinearDrag: 5
+  m_Mass: 4
+  m_LinearDrag: 2
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -182,7 +183,7 @@ MonoBehaviour:
   maxAcceleration: 10
   rotationSpeed: 360
   slowdownDistance: 0
-  pickNextWaypointDist: 1
+  pickNextWaypointDist: 0.22
   endReachedDistance: 1.5
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 0
@@ -265,9 +266,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016051304, y: -0.00296529}
+  m_Offset: {x: 0.01926769, y: -0.00296529}
   serializedVersion: 2
-  m_Radius: 0.016757589
+  m_Radius: 0.052597377
 --- !u!114 &1960974642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +296,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!114 &-3566604272871631760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144174621103406065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e790a7cab88cbe0469aef7a442bca56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team: 0
+  minFogStrength: 0.2
 --- !u!1 &9073093055729687789
 GameObject:
   m_ObjectHideFlags: 0

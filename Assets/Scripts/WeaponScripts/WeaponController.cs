@@ -6,9 +6,15 @@ public class WeaponController : MonoBehaviour {
 
 	public int selectedWeapon = 0;
 
+    public int smallAmmo;
+    public int shellAmmo;
+
 	void Start()
 	{
-		SelectWeapon();
+
+        int smallAmmo;
+        int shellAmmo;
+        SelectWeapon();
 	}
 
 	void Update()
@@ -125,8 +131,6 @@ public class WeaponController : MonoBehaviour {
 		}
 	}
 	*/
-
-
 
 
 }

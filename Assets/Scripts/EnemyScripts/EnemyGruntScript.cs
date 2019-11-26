@@ -45,6 +45,17 @@ public class EnemyGruntScript : MonoBehaviour
 
     void Update()
     {
+        //If player has been killed
+        if(target == null)
+        {
+            //Disable object's scripts
+            MonoBehaviour[] comps = GetComponents<MonoBehaviour>();
+            foreach (MonoBehaviour c in comps)
+            {
+                c.enabled = false;
+            }
+        }
+
 
         //Object was hit
         if(GetComponent<EnemyController>().GetHealth() < storedHealth)
@@ -99,6 +110,12 @@ public class EnemyGruntScript : MonoBehaviour
         if (targetPos.magnitude < aggroRange)
             Aggro();
         
+        if(animator.GetBool("Death") == true)
+        {
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            if (rb.velocity.magnitude == 0)
+                GetComponent<CircleCollider2D>().enabled = false;
+        }
     }
 
     private void Aggro()
@@ -141,10 +158,10 @@ public class EnemyGruntScript : MonoBehaviour
             //Drop table
             int random = Random.Range(1, 100);
 
-            if (random < 10)
+            if (random <= 20)
             {
                 GameObject healthKit = (GameObject)Instantiate(Resources.Load("HealthKitItem"),gameObject.transform.position,Quaternion.identity);
-            }else if (random > 10 && random < 20)
+            }else if (random > 20 && random <= 30)
             {
                 GameObject ammo = (GameObject)Instantiate(Resources.Load("AmmoItem"), gameObject.transform.position, Quaternion.identity);
             }
@@ -156,8 +173,7 @@ public class EnemyGruntScript : MonoBehaviour
                 c.enabled = false;
             }
             GetComponent<BoxCollider2D>().enabled = false;
-            GetComponent<CircleCollider2D>().enabled = false;
-            //GetComponent<Rigidbody2D>()
+            
         }
     }
 
@@ -175,6 +191,9 @@ public class EnemyGruntScript : MonoBehaviour
         aiSetter.enabled = false;
         wanderingSetter.enabled = true;
     }
+
+        
+ 
 
     void OnDrawGizmosSelected()
     {

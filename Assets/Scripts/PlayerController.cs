@@ -17,8 +17,6 @@ public class PlayerController : MonoBehaviour {
 
     private float xMovement = 0f;
     private float yMovement = 0f;
-    private Vector3 lastMoveDir;
-
 
 
     private Animator animator;
@@ -105,7 +103,6 @@ public class PlayerController : MonoBehaviour {
         if (canMove)
         {
             //Can move, no hit
-            lastMoveDir = moveDir;
             transform.position += moveDir * distance;
             return true;
         }

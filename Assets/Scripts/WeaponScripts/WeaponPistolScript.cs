@@ -40,8 +40,9 @@ public class WeaponPistolScript : MonoBehaviour
             coolDownTimer -= Time.deltaTime;
 
 
-        if (Input.GetButtonDown("Fire1") && coolDownTimer <= 0)
+        if (Input.GetButtonDown("Fire1") && coolDownTimer <= 0 && controller.smallAmmo > 0)
         {
+            controller.smallAmmo--;
             coolDownTimer = coolDown;
             controller.Shoot(bullet,firePoint,currentSpread, shootNoise);
 
@@ -49,6 +50,8 @@ public class WeaponPistolScript : MonoBehaviour
             {
                 currentSpread++;
             }
+
+
         }
     }
 
