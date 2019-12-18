@@ -136,7 +136,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.039197087, y: -0.1943332}
+  m_Offset: {x: -0.03591428, y: -0.18284339}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -147,7 +147,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.42160583, y: 0.9838507}
+  m_Size: {x: 0.4150402, y: 0.82299364}
   m_EdgeRadius: 0
 --- !u!50 &801048237913479708
 Rigidbody2D:
@@ -247,6 +247,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedWeapon: 0
+  smallAmmo: 100
+  shellAmmo: 20
 --- !u!1001 &2413702009826107944
 PrefabInstance:
   m_ObjectHideFlags: 0

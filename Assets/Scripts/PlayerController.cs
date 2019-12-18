@@ -12,7 +12,10 @@ public class PlayerController : MonoBehaviour {
     private float dashTime;
     public float startDashTime;
 
-    public int health = 10;
+
+    public int maxHealth = 10;
+    private int currentHealth;
+
     private bool hurt = false;
 
     private float xMovement = 0f;
@@ -21,8 +24,11 @@ public class PlayerController : MonoBehaviour {
 
     private Animator animator;
 
+    public SimpleHealthBar healthBar;
+
     void Start()
     {
+        currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         dashTime = startDashTime;
         transform.localPosition = new Vector3(transform.localPosition.x, 0.009f, transform.localPosition.z);
@@ -36,6 +42,8 @@ public class PlayerController : MonoBehaviour {
         HandleMovement();
         HandleDash();
 
+        //healthBar.UpdateBar(currentHealth, maxHealth);
+
         //Player was hit
         if (hurt)
         {
@@ -44,7 +52,7 @@ public class PlayerController : MonoBehaviour {
         }
 
 
-        if (health <= 0)
+        if (currentHealth <= 0)
         {
             Destroy(gameObject);
         }
@@ -142,7 +150,7 @@ public class PlayerController : MonoBehaviour {
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
+        currentHealth -= damage;
     }
 
     public void FinishHurt()
@@ -155,7 +163,7 @@ public class PlayerController : MonoBehaviour {
     public void CheckDeath()
     {
         //Check health if at 0 or less hp
-        if (health < 1)
+        if (currentHealth < 1)
         {
             animator.SetBool("Death", true);
 
@@ -172,7 +180,8 @@ public class PlayerController : MonoBehaviour {
 
     public void AddHealth(int hpToAdd)
     {
-        health += hpToAdd;
+        if(currentHealth < maxHealth)
+            currentHealth += hpToAdd;
     }
 
 

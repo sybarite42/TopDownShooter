@@ -110,12 +110,8 @@ public class EnemyGruntScript : MonoBehaviour
         if (targetPos.magnitude < aggroRange)
             Aggro();
         
-        if(animator.GetBool("Death") == true)
-        {
-            Rigidbody2D rb = GetComponent<Rigidbody2D>();
-            if (rb.velocity.magnitude == 0)
-                GetComponent<CircleCollider2D>().enabled = false;
-        }
+        
+                
     }
 
     private void Aggro()
@@ -173,7 +169,8 @@ public class EnemyGruntScript : MonoBehaviour
                 c.enabled = false;
             }
             GetComponent<BoxCollider2D>().enabled = false;
-            
+            GetComponent<CircleCollider2D>().enabled = false;
+
         }
     }
 
