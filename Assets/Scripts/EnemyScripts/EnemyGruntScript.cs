@@ -126,7 +126,8 @@ public class EnemyGruntScript : MonoBehaviour
         Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
-            enemiesToDamage[i].GetComponent<PlayerController>().TakeDamage(damage);
+            if(enemiesToDamage[i].tag.Contains("Player"))
+                enemiesToDamage[i].GetComponent<PlayerController>().TakeDamage(damage);
         }
     }
 

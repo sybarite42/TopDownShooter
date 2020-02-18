@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4275010315968118130}
   - component: {fileID: 2625433761324185333}
   - component: {fileID: 1316115572283894199}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ashlands_floor1Grunt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ PrefabInstance:
     - target: {fileID: 3144174621103406074, guid: c28517f16acb3614f80d68a977b1cd32,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c28517f16acb3614f80d68a977b1cd32, type: 3}

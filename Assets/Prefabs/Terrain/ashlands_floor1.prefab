@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4275010315968118130}
   - component: {fileID: 2625433761324185333}
   - component: {fileID: 1316115572283894199}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ashlands_floor1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

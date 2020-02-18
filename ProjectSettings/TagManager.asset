@@ -16,9 +16,9 @@ TagManager:
   - 
   - 
   - Floor
+  - Enemy
   - Player
   - Obstacle
-  - 
   - 
   - 
   - 
@@ -42,6 +42,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Item
+    uniqueID: 1986485057
+    locked: 0
+  - name: Enemy
+    uniqueID: 708816693
     locked: 0
   - name: Player
     uniqueID: 3557583195

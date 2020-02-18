@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour {
         animator = GetComponent<Animator>();
         dashTime = startDashTime;
         transform.localPosition = new Vector3(transform.localPosition.x, 0.009f, transform.localPosition.z);
+        healthBar = FindObjectOfType<SimpleHealthBar>();
         
     }
 
@@ -42,7 +43,7 @@ public class PlayerController : MonoBehaviour {
         HandleMovement();
         HandleDash();
 
-        //healthBar.UpdateBar(currentHealth, maxHealth);
+        healthBar.UpdateBar(currentHealth, maxHealth);
 
         //Player was hit
         if (hurt)
@@ -78,7 +79,7 @@ public class PlayerController : MonoBehaviour {
 
             if (TryMove(moveDir, speed * Time.deltaTime))
             {
-                //Can move, no hitk
+                //Can move, no hit
             }
             else
             {

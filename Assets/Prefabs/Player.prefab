@@ -14,8 +14,7 @@ GameObject:
   - component: {fileID: 545130534758373942}
   - component: {fileID: 7541110485756598084}
   - component: {fileID: 801048237913479708}
-  - component: {fileID: 7553143017145616820}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -73,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -737384101
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayer: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53c932657d6d02644b9861541058ac40, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,7 +102,8 @@ MonoBehaviour:
   speed: 7
   dashSpeed: 0
   startDashTime: 0
-  health: 10
+  maxHealth: 10
+  healthBar: {fileID: 0}
 --- !u!95 &545130534758373942
 Animator:
   serializedVersion: 3
@@ -170,36 +170,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7553143017145616820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6840654007696025731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b130f358dcb26548b2ff0923d496dc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  team: 0
-  brightness: 1
-  shapeType: 0
-  absoluteOffset: 0
-  offset: {x: 0, y: 0}
-  boxSize: {x: 5, y: 5}
-  circleRadius: 7
-  innerRadius: 1
-  angle: 180
-  texture: {fileID: 0}
-  rotateToForward: 0
-  lineOfSightMask:
-    serializedVersion: 2
-    m_Bits: 1024
-  lineOfSightRaycastCount: 100
-  lineOfSightPenetration: 1
-  cellBased: 0
-  antiFlicker: 1
 --- !u!1 &6840654009168162449
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,7 +319,7 @@ PrefabInstance:
     - target: {fileID: 4047512643066394494, guid: 568a25e0d81ab9441b187c5bed87c9cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4047512643066394494, guid: 568a25e0d81ab9441b187c5bed87c9cc,
         type: 3}

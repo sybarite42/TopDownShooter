@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2001737873544192217}
   - component: {fileID: 2001737873544192219}
   - component: {fileID: 2001737873544192216}
-  - component: {fileID: 4734644827347020870}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -98,28 +97,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampTime: 0.15
---- !u!114 &4734644827347020870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001737873544192218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ec0af1344bf2204db5c3b78db3954fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  team: 0
-  fogFarPlane: 1
-  outsideFogStrength: 1
-  pointFiltering: 1
-  fogColor: {r: 0, g: 0, b: 0, a: 1}
-  fogColorTexture: {fileID: 0}
-  fogTextureScreenSpace: 0
-  fogColorTextureScale: 1
-  fogColorTextureHeight: 0
-  clearFog: 0
-  clearFogMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
